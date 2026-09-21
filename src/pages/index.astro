@@ -1,0 +1,84 @@
+---
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Icon from "../components/Icon.astro";
+import PostCard from "../components/PostCard.astro";
+import { site } from "../data/site";
+import heroImage from "../assets/swipey-ai-adult-swimwear-editorial.jpg";
+
+const posts=(await getCollection("blog")).sort((a,b)=>b.data.publishDate.valueOf()-a.data.publishDate.valueOf());
+const faqs=[
+ {question:"What is Swipey AI?",answer:"Swipey AI is an adults-only AI companion service. Its current official pages promote customizable fictional companions, text chat, voice calls and notes, character-consistent images, video scenes, a discovery Feed, and Fanclub content connected to verified creators."},
+ {question:"Is swipeyai.fun the official Swipey AI website?",answer:"No. Swipey AI Guide is an independent editorial publication. Buttons marked as official open swipey.ai, which is operated by INVAI LTD."},
+ {question:"Can you create your own AI girlfriend on Swipey AI?",answer:"The official Create AI flow says users can choose realistic or anime styling and configure appearance, personality, voice, and backstory. Custom AI characters are described as private to the account."},
+ {question:"Is Swipey AI free?",answer:"Swipey AI currently advertises a free entry route and a paid Premium plan. Free allowances, hearts, tokens, renewal terms, and feature access can change, so verify the current pricing and checkout pages."},
+ {question:"Is Swipey AI safe and private?",answer:"It is an adult entertainment platform, not a confidential service. Its privacy policy describes processing account, usage, chat, technical, and other data and says some records may be retained after account closure. Use fictional details and read the current policy before sharing sensitive information."},
+ {question:"What are the best Swipey AI alternatives?",answer:"Candy AI is a useful comparison for guided companion creation and polished media. CrushOn AI is useful for community character variety and chat-first roleplay. Compare memory, voice, images, video, privacy, moderation, and total cost."},
+];
+const jsonLd={"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":`${site.url}/#website`,name:site.name,url:site.url,description:site.description,inLanguage:"en"},{"@type":"Organization","@id":`${site.url}/#organization`,name:site.name,url:site.url,logo:`${site.url}/favicon.svg`},{"@type":"WebPage","@id":`${site.url}/#webpage`,name:"Swipey AI Guide: Features, Review, Safety & Alternatives",url:site.url,isPartOf:{"@id":`${site.url}/#website`},about:["Swipey AI","AI girlfriend","AI companion","AI voice calls","AI image generation","AI video generation"]},{"@type":"FAQPage",mainEntity:faqs.map((faq)=>({"@type":"Question",name:faq.question,acceptedAnswer:{"@type":"Answer",text:faq.answer}}))}]};
+---
+<BaseLayout title="Swipey AI Guide: Features, Safety & Alternatives" description={site.description} keywords={["Swipey AI","Swipey AI review","Swipey AI girlfriend","Swipey AI features","Swipey AI alternatives","Swipey AI pricing","is Swipey AI safe"]} jsonLd={jsonLd}>
+  <section class="hero">
+    <Image class="hero-image" src={heroImage} alt="Adult woman in mint swimwear sitting on sunlit dunes" widths={[640,960,1280,1536]} sizes="100vw" loading="eager" fetchpriority="high" quality={86}/>
+    <div class="hero-scrim"></div>
+    <div class="hero-copy reveal">
+      <div class="eyebrow"><span></span>Independent Swipey AI guide · Adults 18+</div>
+      <h1>Find the vibe.<br/><em>Know the tradeoffs.</em></h1>
+      <p>A source-led guide to Swipey AI girlfriends, Create AI, the discovery Feed, chat, voice calls, images, video, Fanclub, privacy, hearts, pricing, and alternatives.</p>
+      <div class="hero-actions"><a class="button primary" href="#experience">Explore the experience <Icon name="arrow"/></a><a class="button ghost" href="/blog/is-swipey-ai-safe/">Read the safety guide</a></div>
+      <div class="proof-row"><span>Current product checked</span><span>Primary sources linked</span><span>No signup required here</span></div>
+    </div>
+    <div class="feed-preview" aria-label="Illustrative Swipey AI feature map">
+      <div class="feed-top"><span>DISCOVER / 01</span><b>For you</b><i>●</i></div>
+      <div class="feed-card"><span class="feed-badge">PLATFORM MODEL</span><strong>One profile.<br/>Four ways to connect.</strong><div class="feed-actions"><span>Chat</span><span>Call</span><span>Image</span><span>Video</span></div></div>
+      <div class="feed-progress"><span></span><span></span><span></span></div>
+    </div>
+    <div class="photo-credit">Photo: <a href="https://www.pexels.com/photo/11455868/" target="_blank" rel="noopener noreferrer">Fran Bertucci / Pexels</a> · no endorsement implied</div>
+  </section>
+
+  <section class="section answer-grid">
+    <div><div class="section-label">01 / Direct answer</div><h2>What is<br/><span>Swipey AI?</span></h2></div>
+    <div class="answer-copy"><p class="lead">Swipey AI is a browser-based adult AI companion platform that combines customizable fictional characters with chat, voice, images, video, a short-form discovery Feed, and creator-linked Fanclubs.</p><p>The official service separates companions into Platform Models, Verified Creator Models, and private Custom AI characters. This independent guide explains what those labels mean, what to verify before paying, and which alternatives fit different priorities.</p><div class="keyword-line"><span>Swipey AI review</span><span>Swipey AI girlfriend</span><span>Create AI</span><span>Swipey AI Feed</span><span>Swipey AI alternatives</span></div></div>
+  </section>
+
+  <section class="section experience" id="experience">
+    <div class="section-head"><div><div class="section-label">02 / Product map</div><h2>Three paths into<br/><span>one companion platform.</span></h2></div><p>Swipey AI now leads with a discovery-and-creation system, not only the early swipe-card mechanic associated with its name.</p></div>
+    <div class="path-grid">
+      <article><div class="path-number">01</div><span>READY TO CHAT</span><h3>Platform Models</h3><p>Curated fictional characters presented by Swipey AI. Compare personality, scenario, memory, media consistency, and what each action costs.</p><small>Best first test: conversation continuity</small></article>
+      <article><div class="path-number">02</div><span>CREATOR-LINKED</span><h3>Verified Creator Models</h3><p>AI companions connected to participating adult creators. Distinguish synthetic interaction from creator-made Fanclub content and direct requests.</p><small>Best first test: disclosure and value</small></article>
+      <article><div class="path-number">03</div><span>PRIVATE BUILD</span><h3>Custom AI</h3><p>Create a realistic or anime companion with chosen appearance, personality, voice, and backstory. Keep the identity fictional and test repeatability.</p><small>Best first test: control and consistency</small></article>
+    </div>
+  </section>
+
+  <section class="section feature-section" id="features">
+    <div class="feature-intro"><div class="section-label">03 / Swipey AI features</div><h2>Chat is the start.<br/><span>The system goes wider.</span></h2><p>The official feature set spans synchronous and asynchronous interaction. Availability can depend on the current plan and token balance.</p></div>
+    <div class="feature-stack">
+      <article><div class="feature-icon"><Icon name="chat"/></div><div><small>CONVERSATION</small><h3>Chat, roleplay & memory</h3><p>Test whether the character recalls a fictional plan after topic changes, stays in voice, and handles regenerated replies without contradictions.</p></div><span>01</span></article>
+      <article><div class="feature-icon"><Icon name="spark"/></div><div><small>DISCOVERY</small><h3>Feed, quests & progression</h3><p>The official site describes a TikTok-style media Feed, relationship levels, streaks, quests, and daily hearts. Judge whether the loop adds value or simply encourages more spending.</p></div><span>02</span></article>
+      <article><div class="feature-icon"><Icon name="wand"/></div><div><small>GENERATIVE MEDIA</small><h3>Images & video scenes</h3><p>Check visual identity across several outputs, moderation boundaries, generation time, token charges, failed outputs, and deletion controls.</p></div><span>03</span></article>
+      <article><div class="feature-icon"><Icon name="heart"/></div><div><small>VOICE & CREATOR ACCESS</small><h3>Calls, notes & Fanclub</h3><p>Voice features involve microphone and voice-data processing. Creator-linked content requires clear expectations about what is AI-generated and what comes from a real contributor.</p></div><span>04</span></article>
+    </div>
+  </section>
+
+  <section class="section test-lab">
+    <div class="lab-visual"><div class="phone"><div class="phone-head"><span>15-MINUTE FIELD TEST</span><b>•••</b></div><div class="signal-card"><small>MEMORY SIGNAL</small><strong>Ask → distract → return</strong><div class="meter"><i></i></div></div><div class="metric"><b>01</b><span>Character continuity</span></div><div class="metric"><b>02</b><span>Voice latency & clarity</span></div><div class="metric"><b>03</b><span>Media cost per session</span></div><div class="metric"><b>04</b><span>Privacy controls found</span></div></div></div>
+    <div class="lab-copy"><div class="section-label">04 / Test before subscribing</div><h2>Turn the marketing<br/><span>into measurable signals.</span></h2><p>Use one fictional scenario across Swipey AI, Candy AI, and CrushOn AI. The same test makes differences in memory, initiative, voice, and media economics visible.</p><ol><li><b>01</b><div><strong>Set one fictional plan</strong><p>Introduce a place, time, and small promise without real personal information.</p></div></li><li><b>02</b><div><strong>Change topic for six turns</strong><p>Then ask the character to continue the original plan without restating it.</p></div></li><li><b>03</b><div><strong>Repeat with media</strong><p>Generate two images or one voice interaction and record cost, consistency, speed, and controls.</p></div></li></ol></div>
+  </section>
+
+  <section class="section" id="compare">
+    <div class="section-head"><div><div class="section-label">05 / Comparison desk</div><h2>Swipey AI vs.<br/><span>leading alternatives.</span></h2></div><p>No single platform wins every category. Choose the product shape that fits how you actually want to interact.</p></div>
+    <div class="compare-table"><table><thead><tr><th>Platform</th><th>Strongest fit</th><th>Discovery model</th><th>Media emphasis</th><th>Read next</th></tr></thead><tbody><tr><td><strong>Swipey AI</strong><small>Current focus</small></td><td>Feed-led discovery, voice, creator-linked and custom companions</td><td>Feed + curated + create</td><td>Chat, voice, images, video</td><td><span class="badge">Multi-format</span></td></tr><tr><td><strong>Candy AI</strong><small>Guided alternative</small></td><td>Polished one-to-one companion setup and visual experience</td><td>Curated library + create</td><td>Chat and generated media</td><td><a href="/blog/swipey-ai-vs-candy-ai/">Full comparison →</a></td></tr><tr><td><strong>CrushOn AI</strong><small>Community alternative</small></td><td>Large character marketplace and chat-first roleplay</td><td>Searchable public library</td><td>Conversation leads</td><td><a href="/blog/swipey-ai-vs-crushon-ai/">Full comparison →</a></td></tr></tbody></table></div>
+  </section>
+
+  <section class="section privacy" id="privacy">
+    <div class="privacy-copy"><div class="section-label">06 / Privacy before intimacy</div><h2>Your character can be personal.<br/><span>Your identity does not need to be.</span></h2><p>Swipey AI's privacy policy describes processing of account details, usage, chats, technical data, and communications. The policy also describes post-closure retention in some circumstances. Treat companion chat as stored online activity—not a private diary.</p><a class="button ghost" href="/blog/is-swipey-ai-safe/">Open the Swipey AI safety checklist <Icon name="arrow"/></a></div>
+    <div class="privacy-card"><span>PRIVATE-BY-DEFAULT CHECKLIST</span><h3>Before the first chat</h3><ul><li><b>01</b><span>Use a unique password and fictional profile details.</span></li><li><b>02</b><span>Keep addresses, work, finances, health, and secrets out.</span></li><li><b>03</b><span>Review chat, voice, media, and account retention terms.</span></li><li><b>04</b><span>Confirm auto-renewal, tokens, cancellation, and refunds.</span></li><li><b>05</b><span>Use clearly adult, consensual fictional scenarios only.</span></li></ul></div>
+  </section>
+
+  <section class="section"><div class="section-head"><div><div class="section-label">07 / Swipey AI blog</div><h2>Decision guides,<br/><span>without the guesswork.</span></h2></div><a class="button ghost" href="/blog/">Browse every field note <Icon name="arrow"/></a></div><div class="post-grid">{posts.map((post,index)=><PostCard post={post} index={index}/>)}</div></section>
+
+  <section class="section faq"><div><div class="section-label">08 / Frequently asked</div><h2>Swipey AI<br/><span>questions, answered.</span></h2></div><div class="faq-list">{faqs.map((faq)=><details><summary>{faq.question}<span>+</span></summary><p>{faq.answer}</p></details>)}</div></section>
+
+  <section class="section final-cta"><div><div class="section-label">VERIFY THE LIVE PRODUCT</div><h2>Know what you want<br/>before you start swiping.</h2><p>Compare conversation quality, media consistency, privacy, moderation, tokens, and real weekly cost—then confirm current details on the official service.</p></div><a class="button primary" href={site.officialUrl} rel="noopener" target="_blank">Visit official Swipey AI <Icon name="arrow"/></a></section>
+</BaseLayout>

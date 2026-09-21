@@ -1,0 +1,11 @@
+---
+import Icon from "./Icon.astro";
+import { site } from "../data/site";
+---
+<header class="site-header">
+  <a class="brand" href="/" aria-label="Swipey AI Guide home"><span class="brand-icon">S</span><strong>swipey<span>.guide</span></strong><small>INDEPENDENT EDITORIAL</small></a>
+  <nav aria-label="Main navigation"><a href="/#experience">Experience</a><a href="/#features">Features</a><a href="/#compare">Compare</a><a href="/blog/">Guides</a></nav>
+  <a class="official-link" href={site.officialUrl} rel="noopener" target="_blank">Open Swipey AI <Icon name="arrow" /></a>
+  <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" data-menu-button><Icon name="menu" /></button>
+  <div class="mobile-nav" data-mobile-nav><a href="/#experience">Experience</a><a href="/#features">Features</a><a href="/#compare">Compare</a><a href="/blog/">Guides</a><a href={site.officialUrl} rel="noopener" target="_blank">Official Swipey AI</a></div>
+</header>

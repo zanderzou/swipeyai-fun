@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://swipeyai.fun/sitemap-index.xml
