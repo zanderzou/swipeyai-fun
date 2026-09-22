@@ -1,0 +1,34 @@
+# Swipey AI Guide
+
+> An independent Swipey AI guide to AI girlfriend creation, chat, voice calls, images, video, the discovery feed, Fanclub, privacy, pricing, and alternatives.
+
+Canonical publication: https://swipeyai.fun/
+
+This is an independent editorial publication, not the official provider. Articles distinguish published provider information from suggested evaluation methods. Examples and proposed tests are not measured benchmark results. Check dated sources and live provider terms for changing features and prices.
+
+## Main pages
+
+- [Homepage](https://swipeyai.fun/): Overview and practical decision guidance.
+- [Blog and comparisons](https://swipeyai.fun/blog/): Browse the editorial article collection.
+
+## Comparisons
+
+- [Swipey AI vs Candy AI: Feed, Voice, Images & Cost](https://swipeyai.fun/blog/swipey-ai-vs-candy-ai/)
+- [Swipey AI vs CrushOn AI: Discovery, Chat & Voice](https://swipeyai.fun/blog/swipey-ai-vs-crushon-ai/)
+- [Swipey AI vs GirlfriendGPT: Features, Strengths, Weaknesses](https://swipeyai.fun/blog/swipey-ai-vs-girlfriendgpt/)
+- [Swipey AI vs Lovescape: Features, Strengths, Weaknesses](https://swipeyai.fun/blog/swipey-ai-vs-lovescape/)
+- [Swipey AI vs OurDream AI: Features, Strengths, Weaknesses](https://swipeyai.fun/blog/swipey-ai-vs-ourdream-ai/)
+
+## Publication information
+
+- [About](https://swipeyai.fun/about/)
+- [Editorial policy](https://swipeyai.fun/editorial-policy/)
+- [Contact](https://swipeyai.fun/contact/)
+- [Privacy policy](https://swipeyai.fun/privacy/)
+- [Terms](https://swipeyai.fun/terms/)
+
+## Optional
+
+- [XML sitemap](https://swipeyai.fun/sitemap-index.xml): Canonical page inventory.
+- [RSS feed](https://swipeyai.fun/rss.xml): Published article updates.
+- [Robots policy](https://swipeyai.fun/robots.txt): Crawler access directives.
