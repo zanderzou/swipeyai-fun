@@ -5,7 +5,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import Icon from "../components/Icon.astro";
 import PostCard from "../components/PostCard.astro";
 import { site } from "../data/site";
-import heroImage from "../assets/swipey-ai-adult-swimwear-editorial.jpg";
+import heroImage from "../assets/swipey-user-dark-character.png";
+import secondaryImage from "../assets/swipey-user-winter-selfie.jpg";
 
 const posts=(await getCollection("blog")).sort((a,b)=>b.data.publishDate.valueOf()-a.data.publishDate.valueOf());
 const faqs=[
@@ -20,7 +21,7 @@ const jsonLd={"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id"
 ---
 <BaseLayout title="Swipey AI Guide: Features, Safety & Alternatives" description={site.description} keywords={["Swipey AI","Swipey AI review","Swipey AI girlfriend","Swipey AI features","Swipey AI alternatives","Swipey AI pricing","is Swipey AI safe"]} jsonLd={jsonLd}>
   <section class="hero">
-    <Image class="hero-image" src={heroImage} alt="Adult woman in mint swimwear sitting on sunlit dunes" widths={[640,960,1280,1536]} sizes="100vw" loading="eager" fetchpriority="high" quality={86}/>
+    <Image class="hero-image" src={heroImage} alt="Adult fictional character in a dark modern portrait" widths={[640,960,1280,1536]} sizes="100vw" loading="eager" fetchpriority="high" quality={86}/>
     <div class="hero-scrim"></div>
     <div class="hero-copy reveal">
       <div class="eyebrow"><span></span>Independent Swipey AI guide · Adults 18+</div>
@@ -34,7 +35,7 @@ const jsonLd={"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id"
       <div class="feed-card"><span class="feed-badge">PLATFORM MODEL</span><strong>One profile.<br/>Four ways to connect.</strong><div class="feed-actions"><span>Chat</span><span>Call</span><span>Image</span><span>Video</span></div></div>
       <div class="feed-progress"><span></span><span></span><span></span></div>
     </div>
-    <div class="photo-credit">Photo: <a href="https://www.pexels.com/photo/11455868/" target="_blank" rel="noopener noreferrer">Fran Bertucci / Pexels</a> · no endorsement implied</div>
+    <div class="photo-credit">User-provided adult editorial · no endorsement implied</div>
   </section>
 
   <section class="section answer-grid">
@@ -71,6 +72,7 @@ const jsonLd={"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id"
 
   <section class="section seo-copy" aria-labelledby="swipeyai-fun-research">
     <div class="section-head"><div><div class="section-label">06 / Detailed Swipey AI research</div><h2 id="swipeyai-fun-research">A deeper Swipey AI guide<br/><span>for careful comparison.</span></h2></div><p>This text-led section expands the practical questions people ask after the first product overview.</p></div>
+    <figure class="seo-visual"><Image src={secondaryImage} alt="Adult woman in an outdoor winter selfie" widths={[640,960,1280]} sizes="(max-width: 640px) 100vw, 1200px" loading="lazy" quality={84}/><figcaption><span>Discovery feed contrast</span><strong>Different settings reveal whether a platform preserves character identity.</strong></figcaption></figure>
     <div class="seo-copy-grid">
       <article><h3>What to evaluate in a Swipey AI review</h3><p>A useful Swipey AI review should explain the actual job the product performs: feed-led AI companion discovery, custom characters, chat, voice, images, and video. Look past headline feature counts and test whether the main workflow stays clear from setup to a usable result.</p><p>Our recommended method is to use the discovery feed, test one fictional scenario, and record media and voice costs. Record setup time, consistency, failed attempts, feature limits, and the real cost of one repeatable session. That creates evidence you can compare instead of relying on marketing language.</p></article>
       <article><h3>Swipey AI features, cost, and output quality</h3><p>Feature availability and plan limits can change. Before paying, identify which actions are included, which consume credits or tokens, whether retries are charged, and whether exports carry restrictions. A low subscription price can become expensive when the workflow needs repeated generations.</p><p>Quality should mean more than visual polish. Score control, repeatability, continuity, speed, and how often the result is actually usable. Verify current pricing and plan details on the official service at checkout.</p></article>
