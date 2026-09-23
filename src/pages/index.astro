@@ -19,7 +19,7 @@ const faqs=[
 ];
 const jsonLd={"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":`${site.url}/#website`,name:site.name,url:site.url,description:site.description,inLanguage:"en"},{"@type":"Organization","@id":`${site.url}/#organization`,name:site.name,url:site.url,logo:`${site.url}/favicon.svg`},{"@type":"WebPage","@id":`${site.url}/#webpage`,name:"Swipey AI Guide: Features, Review, Safety & Alternatives",url:site.url,isPartOf:{"@id":`${site.url}/#website`},about:["Swipey AI","AI girlfriend","AI companion","AI voice calls","AI image generation","AI video generation"]},{"@type":"FAQPage",mainEntity:faqs.map((faq)=>({"@type":"Question",name:faq.question,acceptedAnswer:{"@type":"Answer",text:faq.answer}}))}]};
 ---
-<BaseLayout title="Swipey AI Guide: Features, Safety & Alternatives" description={site.description} keywords={["Swipey AI","Swipey AI review","Swipey AI girlfriend","Swipey AI features","Swipey AI alternatives","Swipey AI pricing","is Swipey AI safe"]} jsonLd={jsonLd}>
+<BaseLayout title="Swipey AI" description={site.description} keywords={["Swipey AI","Swipey AI review","Swipey AI girlfriend","Swipey AI features","Swipey AI alternatives","Swipey AI pricing","is Swipey AI safe"]} jsonLd={jsonLd}>
   <section class="hero">
     <Image class="hero-image" src={heroImage} alt="Adult fictional character in a dark modern portrait" widths={[640,960,1280,1536]} sizes="100vw" loading="eager" fetchpriority="high" quality={86}/>
     <div class="hero-scrim"></div>

@@ -1,5 +1,5 @@
 export const site = {
-  name: "Swipey AI Guide",
+  name: "Swipey AI",
   domain: "swipeyai.fun",
   url: "https://swipeyai.fun",
   description: "An independent Swipey AI guide to AI girlfriend creation, chat, voice calls, images, video, the discovery feed, Fanclub, privacy, pricing, and alternatives.",
