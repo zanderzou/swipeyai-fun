@@ -1,0 +1,93 @@
+---
+import Analytics from "../components/Analytics.astro";
+import { localeList, type LocaleSlug } from "../data/localized-swipey";
+import { uiCopy } from "../data/localized-ui";
+import { site } from "../data/site";
+import "../styles.css";
+
+interface Props {
+  locale: LocaleSlug;
+  title: string;
+  description: string;
+  type?: "website" | "article";
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+}
+const { locale, title, description, type = "website", jsonLd } = Astro.props;
+const label = uiCopy[locale];
+const accessibility = {
+  ja: ["本文へ移動", "メニューを開く"], ko: ["본문으로 건너뛰기", "메뉴 열기"],
+  "zh-hant": ["跳至主要內容", "開啟選單"], es: ["Saltar al contenido", "Abrir menú"],
+  "pt-br": ["Pular para o conteúdo", "Abrir menu"], ru: ["Перейти к содержимому", "Открыть меню"],
+  de: ["Zum Inhalt springen", "Menü öffnen"], fr: ["Aller au contenu", "Ouvrir le menu"],
+  ar: ["الانتقال إلى المحتوى", "فتح القائمة"]
+} satisfies Record<LocaleSlug, [string, string]>;
+const lang = localeList.find((item) => item.slug === locale)?.code ?? locale;
+const path = Astro.url.pathname;
+const englishPath = path.replace(new RegExp(`^/${locale}(?=/|$)`), "") || "/";
+const canonical = new URL(path, site.url).toString();
+const image = `${site.url}/assets/swipey-user-dark-character.png`;
+const robots = "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1";
+const languageLinks = [{ code: "en", slug: "", label: "English" }, ...localeList];
+const translatedPath = (slug: string) => slug ? `/${slug}${englishPath}` : englishPath;
+---
+<!doctype html>
+<html lang={lang} dir={locale === "ar" ? "rtl" : "ltr"}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="msvalidate.01" content="56B74B6B9E884918F4F18C05D7E2A1F4" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="author" content={site.author} />
+    <meta name="robots" content={robots} />
+    <meta name="googlebot" content={robots} />
+    <meta name="bingbot" content={robots} />
+    <link rel="canonical" href={canonical} />
+    {languageLinks.map((item) => <link rel="alternate" hreflang={item.code} href={new URL(translatedPath(item.slug), site.url).toString()} />)}
+    <link rel="alternate" hreflang="x-default" href={new URL(englishPath, site.url).toString()} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title="Swipey AI RSS" href="/rss.xml" />
+    <meta name="theme-color" content="#0b0710" />
+    <meta property="og:type" content={type} />
+    <meta property="og:site_name" content={site.name} />
+    <meta property="og:locale" content={lang.replace("-", "_")} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={image} />
+    <meta property="og:image:alt" content="Adult editorial portrait" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={image} />
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+  </head>
+  <body class="localized-site">
+    <a class="skip-link" href="#main">{accessibility[locale][0]}</a>
+    <header class="site-header localized-header">
+      <a class="brand" href={`/${locale}/`} aria-label="Swipey AI"><span class="brand-icon">S</span><strong>Swipey <span>AI</span></strong></a>
+      <nav aria-label={label.product}>
+        <a href={`/${locale}/`}>{label.home}</a>
+        <a href={`/${locale}/#method`}>{label.product}</a>
+        <a href={`/${locale}/#compare`}>{label.compare}</a>
+        <a href={`/${locale}/blog/`}>{label.blog}</a>
+      </nav>
+      <details class="locale-switcher"><summary>{label.language} · {lang}</summary><div>{languageLinks.map((item) => <a href={translatedPath(item.slug)} lang={item.code} aria-current={item.slug === locale ? "page" : undefined}>{item.label}</a>)}</div></details>
+      <button class="menu-button" type="button" aria-label={accessibility[locale][1]} aria-expanded="false" data-menu-button>☰</button>
+      <div class="mobile-nav" data-mobile-nav><a href={`/${locale}/`}>{label.home}</a><a href={`/${locale}/#method`}>{label.product}</a><a href={`/${locale}/#compare`}>{label.compare}</a><a href={`/${locale}/blog/`}>{label.blog}</a><a href={site.officialUrl} rel="noopener" target="_blank">{label.official}</a></div>
+    </header>
+    <main id="main"><slot /></main>
+    <footer>
+      <div class="footer-grid localized-footer">
+        <div><a class="brand" href={`/${locale}/`}><span class="brand-icon">S</span><strong>Swipey <span>AI</span></strong></a><p>{label.siteNote}</p><p>{label.ageNote}</p></div>
+        <div><h3>{label.product}</h3><a href={`/${locale}/#method`}>{label.product}</a><a href={`/${locale}/#compare`}>{label.compare}</a><a href={`/${locale}/blog/`}>{label.blog}</a><a href={site.officialUrl} rel="noopener" target="_blank">{label.official}</a></div>
+        <div><h3>{label.blog}</h3>{["candy-ai", "crushon-ai", "ourdream-ai", "girlfriendgpt", "lovescape"].map((key) => <a href={`/${locale}/blog/swipey-ai-vs-${key}/`}>Swipey AI vs {key === "candy-ai" ? "Candy AI" : key === "crushon-ai" ? "CrushOn AI" : key === "ourdream-ai" ? "OurDream AI" : key === "girlfriendgpt" ? "GirlfriendGPT" : "Lovescape"}</a>)}</div>
+        <div><h3>{label.about}</h3><a href={`/${locale}/about/`}>{label.about}</a><a href={`/${locale}/contact/`}>{label.contact}</a><a href={`/${locale}/editorial-policy/`}>{label.editorial}</a><a href={`/${locale}/privacy/`}>{label.privacy}</a><a href={`/${locale}/terms/`}>{label.terms}</a></div>
+      </div>
+      <div class="footer-bottom"><span>© 2026 Swipey AI</span><span>{label.siteNote}</span><span>{label.ageNote}</span></div>
+      <nav class="locale-footer-languages" aria-label={label.language}>{languageLinks.map((item) => <a href={translatedPath(item.slug)} lang={item.code} aria-current={item.slug === locale ? "page" : undefined}>{item.label}</a>)}</nav>
+    </footer>
+    <script is:inline src="/assets/main.js"></script>
+    <Analytics locale={locale} />
+  </body>
+</html>

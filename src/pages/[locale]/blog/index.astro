@@ -1,0 +1,18 @@
+---
+import LocalizedLayout from "../../../layouts/LocalizedLayout.astro";
+import { localeList, type LocaleSlug } from "../../../data/localized-swipey";
+import { uiCopy } from "../../../data/localized-ui";
+import { comparisonCopy, comparisonKeys } from "../../../data/localized-articles";
+import { site } from "../../../data/site";
+export function getStaticPaths() { return localeList.map((item) => ({ params: { locale: item.slug } })); }
+const locale = Astro.params.locale as LocaleSlug;
+const ui = uiCopy[locale];
+const description = locale === "zh-hant" ? "Swipey AI 五篇產品比較，依各服務特點檢視探索、人物建立、模型選擇、影像製作、隱私與完整費用。" : ui.blogLead;
+const lang = localeList.find((item) => item.slug === locale)!.code;
+const jsonLd = { "@context": "https://schema.org", "@type": "CollectionPage", name: ui.blogHeading, url: `${site.url}/${locale}/blog/`, description, inLanguage: lang, hasPart: comparisonKeys.map((key) => ({ "@type": "Article", headline: comparisonCopy[locale]![key].title, url: `${site.url}/${locale}/blog/swipey-ai-vs-${key}/` })) };
+---
+<LocalizedLayout locale={locale} title={`${ui.blogHeading} | Swipey AI`} description={description} jsonLd={jsonLd}>
+  <section class="page-hero locale-page-hero"><span>{ui.blog}</span><h1>{ui.blogHeading}</h1><p>{ui.blogLead}</p></section>
+  <section class="section"><div class="locale-article-grid">{comparisonKeys.map((key, index) => <a class="locale-article-card" href={`/${locale}/blog/swipey-ai-vs-${key}/`}><span>0{index + 1} · Swipey AI vs {key === "candy-ai" ? "Candy AI" : key === "crushon-ai" ? "CrushOn AI" : key === "ourdream-ai" ? "OurDream AI" : key === "girlfriendgpt" ? "GirlfriendGPT" : "Lovescape"}</span><h2>{comparisonCopy[locale]![key].title}</h2><p>{comparisonCopy[locale]![key].description}</p><strong>{ui.read} →</strong></a>)}</div></section>
+  <section class="section locale-reading"><h2>{ui.test}</h2><p>{ui.safety}</p><p>{ui.sourceNote}</p><a class="button ghost" href={`/${locale}/`}>{ui.home}</a></section>
+</LocalizedLayout>

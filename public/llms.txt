@@ -15,9 +15,9 @@ This is an independent editorial publication, not the official provider. Article
 
 - [Swipey AI vs Candy AI: Feed, Voice, Images & Cost](https://swipeyai.fun/blog/swipey-ai-vs-candy-ai/)
 - [Swipey AI vs CrushOn AI: Discovery, Chat & Voice](https://swipeyai.fun/blog/swipey-ai-vs-crushon-ai/)
-- [Swipey AI vs GirlfriendGPT: Features, Strengths, Weaknesses](https://swipeyai.fun/blog/swipey-ai-vs-girlfriendgpt/)
-- [Swipey AI vs Lovescape: Features, Strengths, Weaknesses](https://swipeyai.fun/blog/swipey-ai-vs-lovescape/)
-- [Swipey AI vs OurDream AI: Features, Strengths, Weaknesses](https://swipeyai.fun/blog/swipey-ai-vs-ourdream-ai/)
+- [Swipey AI vs GirlfriendGPT: Creator Personas or Community Cards?](https://swipeyai.fun/blog/swipey-ai-vs-girlfriendgpt/)
+- [Swipey AI vs Lovescape: Discovery or Connected Creation?](https://swipeyai.fun/blog/swipey-ai-vs-lovescape/)
+- [Swipey AI vs OurDream AI: Two Feeds, Different Creation Paths](https://swipeyai.fun/blog/swipey-ai-vs-ourdream-ai/)
 
 ## Publication information
 
@@ -26,6 +26,143 @@ This is an independent editorial publication, not the official provider. Article
 - [Contact](https://swipeyai.fun/contact/)
 - [Privacy policy](https://swipeyai.fun/privacy/)
 - [Terms](https://swipeyai.fun/terms/)
+
+## Complete localized editions
+
+### Japanese
+
+- [Swipey AI homepage](https://swipeyai.fun/ja/): Full Japanese product overview, methodology, pricing caveats and FAQ.
+- [Comparisons index](https://swipeyai.fun/ja/blog/): Five distinct Japanese VS articles.
+- [Swipey AI vs Candy AI: Feed, Voice, Images & Cost](https://swipeyai.fun/ja/blog/swipey-ai-vs-candy-ai/)
+- [Swipey AI vs CrushOn AI: Discovery, Chat & Voice](https://swipeyai.fun/ja/blog/swipey-ai-vs-crushon-ai/)
+- [Swipey AI vs GirlfriendGPT: Creator Personas or Community Cards?](https://swipeyai.fun/ja/blog/swipey-ai-vs-girlfriendgpt/)
+- [Swipey AI vs Lovescape: Discovery or Connected Creation?](https://swipeyai.fun/ja/blog/swipey-ai-vs-lovescape/)
+- [Swipey AI vs OurDream AI: Two Feeds, Different Creation Paths](https://swipeyai.fun/ja/blog/swipey-ai-vs-ourdream-ai/)
+- [About](https://swipeyai.fun/ja/about/)
+- [Editorial policy](https://swipeyai.fun/ja/editorial-policy/)
+- [Contact](https://swipeyai.fun/ja/contact/)
+- [Privacy policy](https://swipeyai.fun/ja/privacy/)
+- [Terms](https://swipeyai.fun/ja/terms/)
+
+### Korean
+
+- [Swipey AI homepage](https://swipeyai.fun/ko/): Full Korean product overview, methodology, pricing caveats and FAQ.
+- [Comparisons index](https://swipeyai.fun/ko/blog/): Five distinct Korean VS articles.
+- [Swipey AI vs Candy AI: Feed, Voice, Images & Cost](https://swipeyai.fun/ko/blog/swipey-ai-vs-candy-ai/)
+- [Swipey AI vs CrushOn AI: Discovery, Chat & Voice](https://swipeyai.fun/ko/blog/swipey-ai-vs-crushon-ai/)
+- [Swipey AI vs GirlfriendGPT: Creator Personas or Community Cards?](https://swipeyai.fun/ko/blog/swipey-ai-vs-girlfriendgpt/)
+- [Swipey AI vs Lovescape: Discovery or Connected Creation?](https://swipeyai.fun/ko/blog/swipey-ai-vs-lovescape/)
+- [Swipey AI vs OurDream AI: Two Feeds, Different Creation Paths](https://swipeyai.fun/ko/blog/swipey-ai-vs-ourdream-ai/)
+- [About](https://swipeyai.fun/ko/about/)
+- [Editorial policy](https://swipeyai.fun/ko/editorial-policy/)
+- [Contact](https://swipeyai.fun/ko/contact/)
+- [Privacy policy](https://swipeyai.fun/ko/privacy/)
+- [Terms](https://swipeyai.fun/ko/terms/)
+
+### Traditional Chinese
+
+- [Swipey AI homepage](https://swipeyai.fun/zh-hant/): Full Traditional Chinese product overview, methodology, pricing caveats and FAQ.
+- [Comparisons index](https://swipeyai.fun/zh-hant/blog/): Five distinct Traditional Chinese VS articles.
+- [Swipey AI vs Candy AI: Feed, Voice, Images & Cost](https://swipeyai.fun/zh-hant/blog/swipey-ai-vs-candy-ai/)
+- [Swipey AI vs CrushOn AI: Discovery, Chat & Voice](https://swipeyai.fun/zh-hant/blog/swipey-ai-vs-crushon-ai/)
+- [Swipey AI vs GirlfriendGPT: Creator Personas or Community Cards?](https://swipeyai.fun/zh-hant/blog/swipey-ai-vs-girlfriendgpt/)
+- [Swipey AI vs Lovescape: Discovery or Connected Creation?](https://swipeyai.fun/zh-hant/blog/swipey-ai-vs-lovescape/)
+- [Swipey AI vs OurDream AI: Two Feeds, Different Creation Paths](https://swipeyai.fun/zh-hant/blog/swipey-ai-vs-ourdream-ai/)
+- [About](https://swipeyai.fun/zh-hant/about/)
+- [Editorial policy](https://swipeyai.fun/zh-hant/editorial-policy/)
+- [Contact](https://swipeyai.fun/zh-hant/contact/)
+- [Privacy policy](https://swipeyai.fun/zh-hant/privacy/)
+- [Terms](https://swipeyai.fun/zh-hant/terms/)
+
+### Spanish
+
+- [Swipey AI homepage](https://swipeyai.fun/es/): Full Spanish product overview, methodology, pricing caveats and FAQ.
+- [Comparisons index](https://swipeyai.fun/es/blog/): Five distinct Spanish VS articles.
+- [Swipey AI vs Candy AI: Feed, Voice, Images & Cost](https://swipeyai.fun/es/blog/swipey-ai-vs-candy-ai/)
+- [Swipey AI vs CrushOn AI: Discovery, Chat & Voice](https://swipeyai.fun/es/blog/swipey-ai-vs-crushon-ai/)
+- [Swipey AI vs GirlfriendGPT: Creator Personas or Community Cards?](https://swipeyai.fun/es/blog/swipey-ai-vs-girlfriendgpt/)
+- [Swipey AI vs Lovescape: Discovery or Connected Creation?](https://swipeyai.fun/es/blog/swipey-ai-vs-lovescape/)
+- [Swipey AI vs OurDream AI: Two Feeds, Different Creation Paths](https://swipeyai.fun/es/blog/swipey-ai-vs-ourdream-ai/)
+- [About](https://swipeyai.fun/es/about/)
+- [Editorial policy](https://swipeyai.fun/es/editorial-policy/)
+- [Contact](https://swipeyai.fun/es/contact/)
+- [Privacy policy](https://swipeyai.fun/es/privacy/)
+- [Terms](https://swipeyai.fun/es/terms/)
+
+### Brazilian Portuguese
+
+- [Swipey AI homepage](https://swipeyai.fun/pt-br/): Full Brazilian Portuguese product overview, methodology, pricing caveats and FAQ.
+- [Comparisons index](https://swipeyai.fun/pt-br/blog/): Five distinct Brazilian Portuguese VS articles.
+- [Swipey AI vs Candy AI: Feed, Voice, Images & Cost](https://swipeyai.fun/pt-br/blog/swipey-ai-vs-candy-ai/)
+- [Swipey AI vs CrushOn AI: Discovery, Chat & Voice](https://swipeyai.fun/pt-br/blog/swipey-ai-vs-crushon-ai/)
+- [Swipey AI vs GirlfriendGPT: Creator Personas or Community Cards?](https://swipeyai.fun/pt-br/blog/swipey-ai-vs-girlfriendgpt/)
+- [Swipey AI vs Lovescape: Discovery or Connected Creation?](https://swipeyai.fun/pt-br/blog/swipey-ai-vs-lovescape/)
+- [Swipey AI vs OurDream AI: Two Feeds, Different Creation Paths](https://swipeyai.fun/pt-br/blog/swipey-ai-vs-ourdream-ai/)
+- [About](https://swipeyai.fun/pt-br/about/)
+- [Editorial policy](https://swipeyai.fun/pt-br/editorial-policy/)
+- [Contact](https://swipeyai.fun/pt-br/contact/)
+- [Privacy policy](https://swipeyai.fun/pt-br/privacy/)
+- [Terms](https://swipeyai.fun/pt-br/terms/)
+
+### Russian
+
+- [Swipey AI homepage](https://swipeyai.fun/ru/): Full Russian product overview, methodology, pricing caveats and FAQ.
+- [Comparisons index](https://swipeyai.fun/ru/blog/): Five distinct Russian VS articles.
+- [Swipey AI vs Candy AI: Feed, Voice, Images & Cost](https://swipeyai.fun/ru/blog/swipey-ai-vs-candy-ai/)
+- [Swipey AI vs CrushOn AI: Discovery, Chat & Voice](https://swipeyai.fun/ru/blog/swipey-ai-vs-crushon-ai/)
+- [Swipey AI vs GirlfriendGPT: Creator Personas or Community Cards?](https://swipeyai.fun/ru/blog/swipey-ai-vs-girlfriendgpt/)
+- [Swipey AI vs Lovescape: Discovery or Connected Creation?](https://swipeyai.fun/ru/blog/swipey-ai-vs-lovescape/)
+- [Swipey AI vs OurDream AI: Two Feeds, Different Creation Paths](https://swipeyai.fun/ru/blog/swipey-ai-vs-ourdream-ai/)
+- [About](https://swipeyai.fun/ru/about/)
+- [Editorial policy](https://swipeyai.fun/ru/editorial-policy/)
+- [Contact](https://swipeyai.fun/ru/contact/)
+- [Privacy policy](https://swipeyai.fun/ru/privacy/)
+- [Terms](https://swipeyai.fun/ru/terms/)
+
+### German
+
+- [Swipey AI homepage](https://swipeyai.fun/de/): Full German product overview, methodology, pricing caveats and FAQ.
+- [Comparisons index](https://swipeyai.fun/de/blog/): Five distinct German VS articles.
+- [Swipey AI vs Candy AI: Feed, Voice, Images & Cost](https://swipeyai.fun/de/blog/swipey-ai-vs-candy-ai/)
+- [Swipey AI vs CrushOn AI: Discovery, Chat & Voice](https://swipeyai.fun/de/blog/swipey-ai-vs-crushon-ai/)
+- [Swipey AI vs GirlfriendGPT: Creator Personas or Community Cards?](https://swipeyai.fun/de/blog/swipey-ai-vs-girlfriendgpt/)
+- [Swipey AI vs Lovescape: Discovery or Connected Creation?](https://swipeyai.fun/de/blog/swipey-ai-vs-lovescape/)
+- [Swipey AI vs OurDream AI: Two Feeds, Different Creation Paths](https://swipeyai.fun/de/blog/swipey-ai-vs-ourdream-ai/)
+- [About](https://swipeyai.fun/de/about/)
+- [Editorial policy](https://swipeyai.fun/de/editorial-policy/)
+- [Contact](https://swipeyai.fun/de/contact/)
+- [Privacy policy](https://swipeyai.fun/de/privacy/)
+- [Terms](https://swipeyai.fun/de/terms/)
+
+### French
+
+- [Swipey AI homepage](https://swipeyai.fun/fr/): Full French product overview, methodology, pricing caveats and FAQ.
+- [Comparisons index](https://swipeyai.fun/fr/blog/): Five distinct French VS articles.
+- [Swipey AI vs Candy AI: Feed, Voice, Images & Cost](https://swipeyai.fun/fr/blog/swipey-ai-vs-candy-ai/)
+- [Swipey AI vs CrushOn AI: Discovery, Chat & Voice](https://swipeyai.fun/fr/blog/swipey-ai-vs-crushon-ai/)
+- [Swipey AI vs GirlfriendGPT: Creator Personas or Community Cards?](https://swipeyai.fun/fr/blog/swipey-ai-vs-girlfriendgpt/)
+- [Swipey AI vs Lovescape: Discovery or Connected Creation?](https://swipeyai.fun/fr/blog/swipey-ai-vs-lovescape/)
+- [Swipey AI vs OurDream AI: Two Feeds, Different Creation Paths](https://swipeyai.fun/fr/blog/swipey-ai-vs-ourdream-ai/)
+- [About](https://swipeyai.fun/fr/about/)
+- [Editorial policy](https://swipeyai.fun/fr/editorial-policy/)
+- [Contact](https://swipeyai.fun/fr/contact/)
+- [Privacy policy](https://swipeyai.fun/fr/privacy/)
+- [Terms](https://swipeyai.fun/fr/terms/)
+
+### Arabic
+
+- [Swipey AI homepage](https://swipeyai.fun/ar/): Full Arabic product overview, methodology, pricing caveats and FAQ.
+- [Comparisons index](https://swipeyai.fun/ar/blog/): Five distinct Arabic VS articles.
+- [Swipey AI vs Candy AI: Feed, Voice, Images & Cost](https://swipeyai.fun/ar/blog/swipey-ai-vs-candy-ai/)
+- [Swipey AI vs CrushOn AI: Discovery, Chat & Voice](https://swipeyai.fun/ar/blog/swipey-ai-vs-crushon-ai/)
+- [Swipey AI vs GirlfriendGPT: Creator Personas or Community Cards?](https://swipeyai.fun/ar/blog/swipey-ai-vs-girlfriendgpt/)
+- [Swipey AI vs Lovescape: Discovery or Connected Creation?](https://swipeyai.fun/ar/blog/swipey-ai-vs-lovescape/)
+- [Swipey AI vs OurDream AI: Two Feeds, Different Creation Paths](https://swipeyai.fun/ar/blog/swipey-ai-vs-ourdream-ai/)
+- [About](https://swipeyai.fun/ar/about/)
+- [Editorial policy](https://swipeyai.fun/ar/editorial-policy/)
+- [Contact](https://swipeyai.fun/ar/contact/)
+- [Privacy policy](https://swipeyai.fun/ar/privacy/)
+- [Terms](https://swipeyai.fun/ar/terms/)
 
 ## Optional
 

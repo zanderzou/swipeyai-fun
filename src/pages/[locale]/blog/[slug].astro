@@ -1,0 +1,30 @@
+---
+import LocalizedLayout from "../../../layouts/LocalizedLayout.astro";
+import { localeList, type LocaleSlug } from "../../../data/localized-swipey";
+import { uiCopy } from "../../../data/localized-ui";
+import { comparisonCopy, comparisonKeys, competitorSources, swipeySources, type ComparisonKey } from "../../../data/localized-articles";
+import { site } from "../../../data/site";
+export function getStaticPaths() { return localeList.flatMap((locale) => comparisonKeys.map((key) => ({ params: { locale: locale.slug, slug: `swipey-ai-vs-${key}` } }))); }
+const locale = Astro.params.locale as LocaleSlug;
+const key = Astro.params.slug!.replace(/^swipey-ai-vs-/, "") as ComparisonKey;
+const article = comparisonCopy[locale]![key];
+const ui = uiCopy[locale];
+const lang = localeList.find((item) => item.slug === locale)!.code;
+const url = `${site.url}/${locale}/blog/swipey-ai-vs-${key}/`;
+const sources = [...swipeySources, ...competitorSources[key]];
+const jsonLd = { "@context": "https://schema.org", "@graph": [
+  { "@type": "Article", headline: article.title, description: article.description, inLanguage: lang, mainEntityOfPage: url, author: { "@type": "Organization", name: site.author, url: `${site.url}/about/` }, publisher: { "@type": "Organization", name: site.name, url: site.url }, citation: sources.map((source) => source.url) },
+  { "@type": "BreadcrumbList", itemListElement: [
+    { "@type": "ListItem", position: 1, name: ui.home, item: `${site.url}/${locale}/` },
+    { "@type": "ListItem", position: 2, name: ui.blog, item: `${site.url}/${locale}/blog/` },
+    { "@type": "ListItem", position: 3, name: article.title, item: url }
+  ] }
+] };
+---
+<LocalizedLayout locale={locale} title={`${article.title} | Swipey AI`} description={article.description} type="article" jsonLd={jsonLd}>
+  <article class="locale-article-page">
+    <header class="locale-article-header"><nav class="breadcrumbs" aria-label={ui.blog}><a href={`/${locale}/`}>{ui.home}</a><span>/</span><a href={`/${locale}/blog/`}>{ui.blog}</a></nav><span class="section-label">Swipey AI vs {key === "candy-ai" ? "Candy AI" : key === "crushon-ai" ? "CrushOn AI" : key === "ourdream-ai" ? "OurDream AI" : key === "girlfriendgpt" ? "GirlfriendGPT" : "Lovescape"}</span><h1>{article.title}</h1><p>{article.description}</p></header>
+    <div class="locale-article-body"><p class="locale-article-lede">{article.intro}</p>{article.sections.map(([heading, paragraphs]) => <section><h2>{heading}</h2>{paragraphs.map((paragraph) => <p>{paragraph}</p>)}</section>)}<section class="locale-check"><h2>{ui.test}</h2><p>{article.test}</p></section><section class="locale-conclusion"><h2>{ui.conclusion}</h2><p>{article.verdict}</p></section><aside class="locale-safety-note"><strong>{ui.safety}</strong><p>{ui.sourceNote}</p></aside><section class="locale-source-list"><h2>{ui.primarySources}</h2><ul>{sources.map((source) => <li><a href={source.url} rel="noopener" target="_blank">{source.name} ↗</a></li>)}</ul></section></div>
+  </article>
+  <section class="section"><div class="section-label">{ui.allArticles}</div><h2 class="locale-section-title">{ui.blogHeading}</h2><div class="locale-article-grid">{comparisonKeys.filter((other) => other !== key).map((other) => <a class="locale-article-card" href={`/${locale}/blog/swipey-ai-vs-${other}/`}><h3>{comparisonCopy[locale]![other].title}</h3><p>{comparisonCopy[locale]![other].description}</p><strong>{ui.read} →</strong></a>)}</div></section>
+</LocalizedLayout>

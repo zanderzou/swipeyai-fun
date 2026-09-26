@@ -1,0 +1,35 @@
+---
+import { Image } from "astro:assets";
+import LocalizedLayout from "../../layouts/LocalizedLayout.astro";
+import { homeCopy, localeList, type LocaleSlug } from "../../data/localized-swipey";
+import { uiCopy } from "../../data/localized-ui";
+import { comparisonCopy, comparisonKeys, swipeySources } from "../../data/localized-articles";
+import { site } from "../../data/site";
+import heroImage from "../../assets/swipey-user-dark-character.png";
+import secondaryImage from "../../assets/swipey-user-winter-selfie.jpg";
+
+export function getStaticPaths() { return localeList.map((item) => ({ params: { locale: item.slug } })); }
+const locale = Astro.params.locale as LocaleSlug;
+const copy = homeCopy[locale]!;
+const ui = uiCopy[locale];
+const lang = localeList.find((item) => item.slug === locale)!.code;
+const jsonLd = { "@context": "https://schema.org", "@graph": [
+  { "@type": "WebPage", name: "Swipey AI", url: `${site.url}/${locale}/`, description: copy.description, inLanguage: lang, about: { "@type": "SoftwareApplication", name: "Swipey AI", url: site.officialUrl } },
+  { "@type": "FAQPage", mainEntity: copy.faqs.map(([question, answer]) => ({ "@type": "Question", name: question, acceptedAnswer: { "@type": "Answer", text: answer } })) }
+] };
+---
+<LocalizedLayout locale={locale} title="Swipey AI" description={copy.description} jsonLd={jsonLd}>
+  <section class="locale-hero">
+    <Image class="locale-hero-image" src={heroImage} alt="Adult fictional character in an editorial portrait" widths={[640,960,1280,1536]} sizes="(max-width: 760px) 100vw, 55vw" loading="eager" fetchpriority="high" quality={85} />
+    <div class="locale-hero-inner"><span class="section-label">{copy.hero.eyebrow}</span><h1>Swipey AI</h1><p class="locale-tagline">{copy.hero.subhead}</p><p>{copy.hero.lead}</p><div class="hero-actions"><a class="button primary" href="#method">{ui.product}</a><a class="button ghost" href={`/${locale}/blog/`}>{ui.blog}</a></div></div>
+  </section>
+  <section class="section locale-reading"><div class="section-label">01 / Swipey AI</div><h2>{copy.identity.heading}</h2>{copy.identity.paragraphs.map((paragraph) => <p>{paragraph}</p>)}<div class="locale-keywords"><span>Explorer Feed</span><span>Platform Models</span><span>Verified Creator Models</span><span>Custom AI</span><span>Premium · Hearts · Fan Club</span></div></section>
+  <section class="section locale-panel" id="method"><div class="section-label">02 / {ui.test}</div><h2>{copy.method.heading}</h2><p class="locale-section-lead">{copy.method.intro}</p><div class="locale-step-grid">{copy.method.steps.map(([heading, body], index) => <article><span>{String(index + 1).padStart(2,"0")}</span><h3>{heading}</h3><p>{body}</p></article>)}</div></section>
+  <section class="section" id="compare"><div class="section-label">03 / {ui.choose}</div><h2 class="locale-section-title">{copy.comparisons.heading}</h2><p class="locale-section-lead">{copy.comparisons.intro}</p><div class="locale-comparison-list">{copy.comparisons.rows.map(([heading, body], index) => <article><span>0{index + 1}</span><div><h3>{heading}</h3><p>{body}</p><a href={`/${locale}/blog/swipey-ai-vs-${comparisonKeys[index]}/`}>{ui.read} →</a></div></article>)}</div></section>
+  <section class="section locale-panel"><div class="section-label">04 / {ui.limits}</div><h2>{copy.notes.heading}</h2><div class="locale-notes">{copy.notes.entries.map(([heading, body]) => <article><h3>{heading}</h3><p>{body}</p></article>)}</div></section>
+  <section class="section locale-safety"><div><div class="section-label">05 / {ui.privacy}</div><h2>{copy.safety.heading}</h2>{copy.safety.paragraphs.map((paragraph) => <p>{paragraph}</p>)}</div><Image src={secondaryImage} alt="Clearly adult woman in a non-explicit outdoor editorial photograph" widths={[480,720,960]} sizes="(max-width: 800px) 100vw, 420px" loading="lazy" quality={80} /></section>
+  <section class="section" id="articles"><div class="section-label">06 / {ui.blog}</div><h2 class="locale-section-title">{ui.blogHeading}</h2><p class="locale-section-lead">{ui.blogLead}</p><div class="locale-article-grid">{comparisonKeys.map((key, index) => <a class="locale-article-card" href={`/${locale}/blog/swipey-ai-vs-${key}/`}><span>0{index + 1} · Swipey AI vs {key === "candy-ai" ? "Candy AI" : key === "crushon-ai" ? "CrushOn AI" : key === "ourdream-ai" ? "OurDream AI" : key === "girlfriendgpt" ? "GirlfriendGPT" : "Lovescape"}</span><h3>{comparisonCopy[locale]![key].title}</h3><p>{comparisonCopy[locale]![key].description}</p><strong>{ui.read} →</strong></a>)}</div></section>
+  <section class="section locale-faq"><div class="section-label">07 / FAQ</div><h2>{ui.questions}</h2><div class="faq-list">{copy.faqs.map(([question, answer]) => <details><summary>{question}<span>+</span></summary><p>{answer}</p></details>)}</div></section>
+  <section class="section locale-sources"><div class="section-label">08 / {ui.primarySources}</div><h2>{ui.primarySources}</h2><p>{ui.sourceNote}</p><ul>{swipeySources.map((source) => <li><a href={source.url} rel="noopener" target="_blank">{source.name} ↗</a></li>)}</ul></section>
+  <section class="section locale-final"><h2>Swipey AI</h2><p>{ui.siteNote} {ui.safety}</p><a class="button primary" href={site.officialUrl} rel="noopener" target="_blank">{ui.official} ↗</a></section>
+</LocalizedLayout>

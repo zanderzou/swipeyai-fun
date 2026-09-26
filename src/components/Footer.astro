@@ -2,12 +2,14 @@
 import type { CollectionEntry } from "astro:content";
 import Icon from "./Icon.astro";
 import { site } from "../data/site";
+import { localeList } from "../data/localized-swipey";
 interface Props { posts: CollectionEntry<"blog">[]; }
 const { posts } = Astro.props;
+const localeTargetPath = /^\/404\/?$/.test(Astro.url.pathname) ? "/" : Astro.url.pathname;
 ---
 <footer><div class="footer-grid">
   <div><a class="brand" href="/"><span class="brand-icon">S</span><strong>Swipey <span>AI</span></strong><small>INDEPENDENT EDITORIAL</small></a><p>Independent research on Swipey AI companions, Feed, Create AI, voice calls, images, video, Fanclub, hearts, privacy, pricing, and alternatives.</p></div>
   <div><h3>Explore</h3><a href="/#features">Swipey AI features</a><a href="/#compare">AI companion comparisons</a><a href="/#privacy">Privacy checklist</a><a href={site.officialUrl} rel="noopener" target="_blank">Official Swipey AI <Icon name="arrow" /></a></div>
   <div><h3>Latest guides</h3>{posts.slice(0,3).map((post)=><a href={`/blog/${post.id}/`}>{post.data.title}</a>)}</div>
   <div><h3>Information</h3><a href="/about/">About</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/editorial-policy/">Editorial policy</a><a href="/contact/">Contact</a></div>
-</div><div class="footer-bottom"><span>© <span data-year>2026</span> Swipey AI</span><span>Independent · Not affiliated with INVAI LTD or Swipey AI</span><span>18+ editorial · No chat data collected</span></div></footer>
+</div><div class="footer-bottom"><span>© <span data-year>2026</span> Swipey AI</span><span>Independent · Not affiliated with INVAI LTD or Swipey AI</span><span>18+ editorial · No chat data collected</span></div><nav class="locale-footer-languages" id="languages" aria-label="Languages"><a href={localeTargetPath} lang="en" aria-current="page">English</a>{localeList.map((item)=><a href={`/${item.slug}${localeTargetPath}`} lang={item.code}>{item.label}</a>)}</nav></footer>

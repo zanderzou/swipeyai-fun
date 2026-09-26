@@ -1,14 +1,31 @@
 ---
 import { site } from "../data/site";
 import { measurementId } from "../data/analytics";
+import { uiCopy } from "../data/localized-ui";
+import type { LocaleSlug } from "../data/localized-swipey";
+interface Props { locale?: LocaleSlug }
+const { locale } = Astro.props;
+const words = locale ? uiCopy[locale] : null;
+const statuses: Record<LocaleSlug, { signal: string; on: string; off: string }> = {
+  ja: { signal: "ブラウザーのプライバシー設定を尊重し、解析を停止しています。", on: "解析は有効です。「許可しない」を選ぶと同意を取り消せます。", off: "解析は停止中です。この選択は当サイトのみに適用されます。" },
+  ko: { signal: "브라우저의 개인정보 보호 신호를 존중하여 방문 분석을 끕니다.", on: "분석이 켜져 있습니다. '동의하지 않음'을 누르면 동의를 철회할 수 있습니다.", off: "분석이 꺼져 있습니다. 이 선택은 이 사이트에만 적용됩니다." },
+  "zh-hant": { signal: "我們尊重瀏覽器的隱私訊號，流量分析已關閉。", on: "流量分析目前開啟；點選「不同意」即可撤回同意。", off: "流量分析目前關閉；此選擇僅適用於本站。" },
+  es: { signal: "Respetamos la señal de privacidad de tu navegador; la analítica está desactivada.", on: "La analítica está activada. Pulsa «No, gracias» para retirar tu consentimiento.", off: "La analítica está desactivada. Esta elección solo afecta a este sitio." },
+  "pt-br": { signal: "Respeitamos o sinal de privacidade do navegador; a análise está desligada.", on: "A análise está ativada. Selecione «Não, obrigado» para retirar seu consentimento.", off: "A análise está desligada. Sua escolha vale apenas para este site." },
+  ru: { signal: "Мы учитываем сигнал конфиденциальности браузера: аналитика отключена.", on: "Аналитика включена. Нажмите «Нет, спасибо», чтобы отозвать согласие.", off: "Аналитика отключена. Выбор действует только на этом сайте." },
+  de: { signal: "Das Datenschutzsignal Ihres Browsers wird beachtet; die Analyse bleibt aus.", on: "Die Analyse ist aktiv. Mit „Nein, danke“ können Sie die Einwilligung widerrufen.", off: "Die Analyse ist ausgeschaltet. Diese Wahl gilt nur für diese Website." },
+  fr: { signal: "Le signal de confidentialité du navigateur est respecté ; la mesure d'audience reste désactivée.", on: "La mesure d'audience est active. Cliquez sur « Non merci » pour retirer votre accord.", off: "La mesure d'audience est désactivée. Ce choix ne concerne que ce site." },
+  ar: { signal: "نحترم إشارة الخصوصية في متصفحك؛ التحليلات متوقفة.", on: "التحليلات مفعلة. اختر «لا، شكراً» لسحب موافقتك.", off: "التحليلات متوقفة. يسري هذا الاختيار على هذا الموقع فقط." },
+};
+const currentStatus = locale ? statuses[locale] : null;
 const domain = new URL(site.url).hostname;
 ---
 {measurementId && <>
-  <div id="site-analytics" data-measurement-id={measurementId} data-domain={domain}>
-    <div class="analytics-footer"><button type="button" id="analytics-settings">Analytics preferences</button></div>
-    <aside id="analytics-notice" role="region" aria-label="Analytics preferences" hidden>
-      <div><strong>Optional analytics</strong><p>May we use Google Analytics to understand visits and improve this guide? No advertising tracking. <a href="/privacy/">Privacy details</a>.</p><p id="analytics-status" aria-live="polite"></p></div>
-      <div class="analytics-actions"><button type="button" id="analytics-decline">No thanks</button><button type="button" id="analytics-accept">Allow analytics</button></div>
+  <div id="site-analytics" data-measurement-id={measurementId} data-domain={domain} data-privacy-signal={currentStatus?.signal ?? "Your browser privacy signal is respected. Analytics is off."} data-status-on={currentStatus?.on ?? "Analytics is on. Choose No thanks to withdraw your consent."} data-status-off={currentStatus?.off ?? "Analytics is off. Your choice applies only to this website."}>
+    <div class="analytics-footer"><button type="button" id="analytics-settings">{words?.consentSettings ?? "Analytics preferences"}</button></div>
+    <aside id="analytics-notice" role="region" aria-label={words?.consentSettings ?? "Analytics preferences"} hidden>
+      <div><strong>{words?.consentTitle ?? "Optional analytics"}</strong><p>{words?.consentBody ?? "May we use Google Analytics to understand visits and improve this guide? No advertising tracking."} <a href={locale ? `/${locale}/privacy/` : "/privacy/"}>{words?.privacy ?? "Privacy details"}</a>.</p><p id="analytics-status" aria-live="polite"></p></div>
+      <div class="analytics-actions"><button type="button" id="analytics-decline">{words?.consentDecline ?? "No thanks"}</button><button type="button" id="analytics-accept">{words?.consentAccept ?? "Allow analytics"}</button></div>
     </aside>
   </div>
   <script is:inline src="/analytics-consent.js"></script>

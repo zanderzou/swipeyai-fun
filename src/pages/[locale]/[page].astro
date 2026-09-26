@@ -1,0 +1,18 @@
+---
+import LocalizedLayout from "../../layouts/LocalizedLayout.astro";
+import { localeList, type LocaleSlug } from "../../data/localized-swipey";
+import { localizedInfo, type InfoKey } from "../../data/localized-info";
+import { uiCopy } from "../../data/localized-ui";
+import { site } from "../../data/site";
+export function getStaticPaths() { const infoPages: InfoKey[] = ["about", "contact", "editorial-policy", "privacy", "terms"]; return localeList.flatMap((locale) => infoPages.map((page) => ({ params: { locale: locale.slug, page } }))); }
+const locale = Astro.params.locale as LocaleSlug;
+const page = Astro.params.page as InfoKey;
+const content = localizedInfo[locale]![page];
+const ui = uiCopy[locale];
+const lang = localeList.find((item) => item.slug === locale)!.code;
+const jsonLd = { "@context": "https://schema.org", "@type": "WebPage", name: content.title, description: content.description, url: `${site.url}/${locale}/${page}/`, inLanguage: lang, isPartOf: { "@type": "WebSite", name: site.name, url: site.url } };
+---
+<LocalizedLayout locale={locale} title={`${content.title} | Swipey AI`} description={content.description} jsonLd={jsonLd}>
+  <section class="info-hero locale-page-hero"><span>{ui[page === "editorial-policy" ? "editorial" : page]}</span><h1>{content.title}</h1><p>{content.description}</p></section>
+  <article class="info-content locale-info-content">{content.sections.map(([heading, paragraphs]) => <section><h2>{heading}</h2>{paragraphs.map((paragraph) => <p>{paragraph}</p>)}</section>)}<p>{ui.siteNote}</p><a href={`/${locale}/`}>{ui.home} →</a></article>
+</LocalizedLayout>

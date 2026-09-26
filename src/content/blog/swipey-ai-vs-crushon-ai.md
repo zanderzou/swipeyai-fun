@@ -2,7 +2,7 @@
 title: "Swipey AI vs CrushOn AI: Discovery, Chat & Voice"
 description: "Compare Swipey AI and CrushOn AI across character discovery, roleplay chat, memory, voice, images, community variety, privacy, and cost."
 publishDate: 2026-09-18
-updatedDate: 2026-09-21
+updatedDate: 2026-09-26
 category: "Comparison"
 readTime: "9 min read"
 accent: "violet"
@@ -17,6 +17,10 @@ sources:
     url: "https://swipey.ai/privacy-policy"
   - name: "CrushOn AI official website"
     url: "https://crushon.ai/"
+  - name: "CrushOn AI model creation wiki"
+    url: "https://aiwiki.crushon.ai/wiki/Model_Creation"
+  - name: "CrushOn AI view memory wiki"
+    url: "https://aiwiki.crushon.ai/wiki/View_Memory"
 ---
 
 <p class="article-lede">Swipey AI and CrushOn AI both serve adults looking for fictional character chat and flexible roleplay, but they solve discovery in different ways. Swipey AI packages curated, creator-linked, and custom companions inside a visual Feed with voice and media. CrushOn AI is better understood as a large, searchable character marketplace where community cards and text scenarios lead.</p>
@@ -51,6 +55,8 @@ For text-first users, the best comparison is not the number of characters. It is
 - how regeneration or editing affects the next reply.
 
 Community characters can hide prompt quality behind attractive cards. Read descriptions and greetings before investing in a long session. If a premise is vague, contradictory, or youth-coded, skip it.
+
+The official CrushOn model-creation wiki describes selecting a base model and applicable version, then writing custom instructions. Its separate Memory help page describes inspecting stored memory. That makes a sharper test possible: distinguish a character-card instruction from the model prompt, current context and information stored for later recall. Swipey's relationship levels should not be treated as the same technical mechanism as saved memory.
 
 ## Voice and multi-format interaction
 
