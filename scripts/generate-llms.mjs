@@ -18,7 +18,7 @@ const articles=readdirSync(blog).filter(f=>f.endsWith('.md')).sort().map(f=>{
 const label=s=>s.replace(/[\[\]]/g,'');
 const links=[['Homepage','/','Overview and practical decision guidance.'],['Blog and comparisons','/blog/','Browse the editorial article collection.']];
 const optional=[['About','about'],['Editorial policy','editorial-policy'],['Contact','contact'],['Privacy policy','privacy'],['Terms','terms']].filter(([,slug])=>existsSync(path.join(pages,slug+'.astro'))||existsSync(path.join(pages,slug,'index.astro')));
-const editions=[['Japanese','ja'],['Korean','ko'],['Traditional Chinese','zh-hant'],['Spanish','es'],['Brazilian Portuguese','pt-br'],['Russian','ru'],['German','de'],['French','fr'],['Arabic','ar']];
+const editions=[['Spanish','es']];
 const editionLinks=editions.flatMap(([language,slug])=>[
  `### ${language}`,'',
  `- [Swipey AI homepage](${origin}/${slug}/): Full ${language} product overview, methodology, pricing caveats and FAQ.`,
