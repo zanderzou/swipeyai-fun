@@ -74,13 +74,13 @@ const translatedPath = (slug: string) => slug ? `/${slug}${englishPath}` : engli
       </nav>
       <details class="locale-switcher"><summary>{label.language} · {lang}</summary><div>{languageLinks.map((item) => <a href={translatedPath(item.slug)} lang={item.code} aria-current={item.slug === locale ? "page" : undefined}>{item.label}</a>)}</div></details>
       <button class="menu-button" type="button" aria-label={accessibility[locale][1]} aria-expanded="false" data-menu-button>☰</button>
-      <div class="mobile-nav" data-mobile-nav><a href={`/${locale}/`}>{label.home}</a><a href={`/${locale}/#method`}>{label.product}</a><a href={`/${locale}/#compare`}>{label.compare}</a><a href={`/${locale}/blog/`}>{label.blog}</a><a href={site.officialUrl} rel="noopener" target="_blank">{label.official}</a></div>
+      <div class="mobile-nav" data-mobile-nav><a href={`/${locale}/`}>{label.home}</a><a href={`/${locale}/#method`}>{label.product}</a><a href={`/${locale}/#compare`}>{label.compare}</a><a href={`/${locale}/blog/`}>{label.blog}</a><a href="https://www.playbox.com/?ref=zanderzou" rel="sponsored nofollow noopener noreferrer" target="_blank">{label.official}</a></div>
     </header>
     <main id="main"><slot /></main>
     <footer>
       <div class="footer-grid localized-footer">
         <div><a class="brand" href={`/${locale}/`}><span class="brand-icon">S</span><strong>Swipey <span>AI</span></strong></a><p>{label.siteNote}</p><p>{label.ageNote}</p></div>
-        <div><h3>{label.product}</h3><a href={`/${locale}/#method`}>{label.product}</a><a href={`/${locale}/#compare`}>{label.compare}</a><a href={`/${locale}/blog/`}>{label.blog}</a><a href={site.officialUrl} rel="noopener" target="_blank">{label.official}</a></div>
+        <div><h3>{label.product}</h3><a href={`/${locale}/#method`}>{label.product}</a><a href={`/${locale}/#compare`}>{label.compare}</a><a href={`/${locale}/blog/`}>{label.blog}</a><a href="https://www.playbox.com/?ref=zanderzou" rel="sponsored nofollow noopener noreferrer" target="_blank">{label.official}</a></div>
         <div><h3>{label.blog}</h3>{["candy-ai", "crushon-ai", "ourdream-ai", "girlfriendgpt", "lovescape"].map((key) => <a href={`/${locale}/blog/swipey-ai-vs-${key}/`}>Swipey AI vs {key === "candy-ai" ? "Candy AI" : key === "crushon-ai" ? "CrushOn AI" : key === "ourdream-ai" ? "OurDream AI" : key === "girlfriendgpt" ? "GirlfriendGPT" : "Lovescape"}</a>)}</div>
         <div><h3>{label.about}</h3><a href={`/${locale}/about/`}>{label.about}</a><a href={`/${locale}/contact/`}>{label.contact}</a><a href={`/${locale}/editorial-policy/`}>{label.editorial}</a><a href={`/${locale}/privacy/`}>{label.privacy}</a><a href={`/${locale}/terms/`}>{label.terms}</a></div>
       </div>
