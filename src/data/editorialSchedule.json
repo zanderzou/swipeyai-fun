@@ -1,0 +1,94 @@
+{
+  "domain": "swipeyai.fun",
+  "timeZone": "Asia/Shanghai",
+  "policy": "New articles are English-only. Quality review is required before a date can enable a release. Existing publications are preserved.",
+  "articles": [
+    {
+      "order": 1,
+      "slug": "swipey-vs-nomi-feed-or-continuity",
+      "title": "Swipey AI vs Nomi: Discovery or Continuity?",
+      "opponent": "Nomi",
+      "readerQuestion": "a creator-oriented feed versus a continuing fictional companion",
+      "releaseAt": "2026-10-08T05:22:21.457Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-10-08",
+      "reviewedSha256": "ca58a4bbb6b0662986a9bd6c0e77dfaaa66e30ef8934ba038ef54610a5222970",
+      "wordCount": 497,
+      "editorialIntent": "Choose a discovery or continuity routine with a small time-bounded comparison.",
+      "sources": [
+        [
+          "Swipey Companion Types",
+          "https://swipey.ai/faq/ai-features/platform-models-vs-verified-creator-models-vs-custom-ai"
+        ],
+        [
+          "Swipey Explorer Feed",
+          "https://swipey.ai/faq/ai-features/what-is-the-explorer-feed-on-swipey-ai"
+        ],
+        [
+          "Nomi Backstory+",
+          "https://wiki.nomi.ai/What_is_Backstory%2B%3F"
+        ]
+      ]
+    },
+    {
+      "order": 2,
+      "slug": "swipey-vs-kindroid-profile-control",
+      "title": "Swipey AI vs Kindroid: Who Controls the Persona?",
+      "opponent": "Kindroid",
+      "readerQuestion": "choosing creator personas versus controlling a private character definition",
+      "releaseAt": "2026-10-16T03:54:20.160Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-10-08",
+      "reviewedSha256": "1e10d31f57d0d4246ac40fc441a9a7842817d541aff5e0ea5b1d54ab7a450cf5",
+      "wordCount": 502,
+      "editorialIntent": "Identify authorship and practical editing control before revising an original character.",
+      "sources": [
+        [
+          "Swipey Companion Types",
+          "https://swipey.ai/faq/ai-features/platform-models-vs-verified-creator-models-vs-custom-ai"
+        ],
+        [
+          "Swipey Custom AI Guide",
+          "https://swipey.ai/faq/ai-features/how-do-i-create-my-own-custom-ai-companion"
+        ],
+        [
+          "Kindroid Personality Controls",
+          "https://kindroid.ai/v2/docs/customizing-personality/"
+        ]
+      ]
+    },
+    {
+      "order": 3,
+      "slug": "swipey-vs-replika-notification-boundaries",
+      "title": "Swipey AI vs Replika: Notification Boundaries",
+      "opponent": "Replika",
+      "readerQuestion": "a discovery feed versus a bounded daily notification routine",
+      "releaseAt": "2026-10-23T15:04:30.480Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-10-08",
+      "reviewedSha256": "7b414bea9923af4b872f6ee267f8d6253694bf0c126e56befea3976009343d85",
+      "wordCount": 493,
+      "editorialIntent": "Keep conversation access separate from device notifications and visible message previews.",
+      "sources": [
+        [
+          "Swipey Explorer Feed",
+          "https://swipey.ai/faq/ai-features/what-is-the-explorer-feed-on-swipey-ai"
+        ],
+        [
+          "Replika Getting Started",
+          "https://help.replika.com/hc/en-us/articles/115001095892-How-do-I-begin-Replika"
+        ],
+        [
+          "Apple Notification Settings",
+          "https://support.apple.com/guide/iphone/change-notification-settings-iph7c3d96bab/ios"
+        ]
+      ]
+    }
+  ]
+}

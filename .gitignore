@@ -4,3 +4,7 @@ dist/
 .DS_Store
 npm-debug.log*
 research/i18n-swipey-visual/
+
+# Local editorial build evidence
+editorial-build.log
+artifacts/editorial-build.json
