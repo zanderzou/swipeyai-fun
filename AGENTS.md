@@ -6,3 +6,6 @@
 - SEO/GEO content is answer-led with original comparisons, visible authorship, review dates, primary sources, crawlable internal links, structured data, sitemap, RSS, and IndexNow.
 - Treat older swipe-first coverage as historical; lead with the current Feed, Platform Models, Verified Creator Models, Custom AI, voice, images, and video positioning.
 - Never add chat, login, payment, uploads, voice recording, or collection of private messages.
+
+- Multilingual scope (October 11, 2026): publish native language editions for the homepage and blog only. About, Contact, Editorial Policy, Privacy and Terms remain in English; retired translated information URLs redirect to their English counterparts.
+- Translated headings and CTA labels must fit desktop, tablet and mobile layouts. Keep one primary homepage CTA, preserve its configured destination, separate copy from portrait artwork, and check Arabic RTL and long German words.
