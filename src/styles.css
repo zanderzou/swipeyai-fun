@@ -125,3 +125,15 @@ footer{margin-top:100px;border-top:1px solid var(--line);background:#07050a}.foo
 html[dir="rtl"] .locale-hero-image{right:auto;left:0}html[dir="rtl"] .locale-hero:after{background:linear-gradient(270deg,#0b0710 35%,rgba(11,7,16,.88) 56%,rgba(11,7,16,.25)),linear-gradient(0deg,#0b0710,transparent 25%)}html[dir="rtl"] .locale-comparison-list article{grid-template-columns:46px 1fr}html[dir="rtl"] .breadcrumbs{justify-content:flex-start}html[dir="rtl"] .locale-switcher>div{right:auto;left:0}
 @media(max-width:980px){.localized-header{grid-template-columns:auto 1fr auto auto;gap:10px}.localized-header nav{display:none}.localized-header .menu-button{display:block;position:static}.locale-hero-inner{padding-inline-end:35%}.localized-footer{grid-template-columns:repeat(2,minmax(0,1fr))}.locale-hero-image{width:70%}}
 @media(max-width:700px){.localized-header{grid-template-columns:minmax(0,1fr) auto auto;gap:5px}.localized-header .brand strong{font-size:15px}.locale-switcher summary{font-size:10px;padding:0 8px}.localized-header .menu-button{position:static;padding:7px}.locale-hero{min-height:790px;align-items:end}.locale-hero-image{width:100%;height:59%;top:0;bottom:auto;object-position:center 26%}.locale-hero:after{background:linear-gradient(0deg,#0b0710 41%,rgba(11,7,16,.25) 80%)}.locale-hero-inner{width:calc(100% - 34px);margin:330px auto 35px;padding:0}.locale-hero h1{font-size:clamp(2.75rem,11vw,4.1rem)}.locale-hero-inner>p{font-size:15px}.locale-step-grid,.locale-article-grid,.locale-safety{grid-template-columns:1fr}.locale-article-card:last-child:nth-child(odd){grid-column:auto}.locale-final{flex-direction:column;align-items:flex-start}.locale-page-hero{min-height:310px;padding:130px 18px 30px}.locale-article-page{width:calc(100% - 34px);padding-top:120px}.locale-article-header h1{font-size:clamp(2rem,7vw,2.8rem)}.locale-article-body{font-size:15px}.locale-article-lede{font-size:17px}.localized-footer{grid-template-columns:1fr}.locale-footer-languages{width:calc(100% - 34px)}html[dir="rtl"] .locale-hero:after{background:linear-gradient(0deg,#0b0710 42%,rgba(11,7,16,.3) 80%)}}
+
+/* Keep the main action in the first mobile viewport while leaving the portrait prominent. */
+@media(max-width:700px){
+  .hero,.locale-hero{align-items:flex-start;min-height:760px;padding-bottom:28px}
+  .hero-copy,.locale-hero-inner{display:flex;flex-direction:column;margin:clamp(255px,36vh,305px) auto 0;padding:0}
+  .hero-copy>p:not(.hero-tagline),.locale-hero-inner>p:not(.locale-tagline){order:4}
+  .hero-actions{order:3;margin-top:16px}
+  .proof-row{order:5}
+  .hero h1,.locale-hero h1{margin-top:12px;margin-bottom:13px}
+  .hero-copy>.hero-tagline,.locale-hero .locale-tagline{margin:0 0 8px}
+  .locale-hero .hero-actions .button{width:100%}
+}
