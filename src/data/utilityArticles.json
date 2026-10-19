@@ -1,0 +1,12 @@
+{
+  "domain": "swipeyai.fun",
+  "label": "swipeyai.fun",
+  "origin": "https://swipeyai.fun",
+  "slugs": [
+    "swipey-invai-ltd-statement-charge-check",
+    "swipey-data-copy-before-delete-profile"
+  ],
+  "articlePrefix": "/blog/",
+  "homePath": "/",
+  "blogPath": "/blog/"
+}
