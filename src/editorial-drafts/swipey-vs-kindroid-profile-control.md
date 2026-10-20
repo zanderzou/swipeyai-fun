@@ -2,7 +2,7 @@
 title: "Swipey AI vs Kindroid: Who Controls the Persona?"
 description: "Compare Swipey AI and Kindroid by which character definition you can edit, separating a creator-associated persona from an original private setup."
 publishDate: 2026-10-16T03:54:20.160Z
-updatedDate: 2026-10-08T05:22:21.457Z
+updatedDate: 2026-10-20T04:50:56.933Z
 category: "Comparison"
 readTime: "3 min read"
 answer: "Swipey offers different companion types, including custom AI, so inspect the actual persona you choose. Compare the supported edits for your original setup with Kindroid’s personality controls. Selecting a creator-associated persona is different from owning its definition; choose by the control you need rather than assuming every card is equally editable."
@@ -19,7 +19,7 @@ sources:
 
 Swipey AI vs Kindroid for profile control should begin with whose character you are using. Choosing a persona from a feed, selecting a creator-associated companion and defining your own fictional character are different activities. They do not necessarily give you the same editing rights or controls.
 
-This guide reviews official information on October 8, 2026. It provides an original non-explicit authoring exercise for adult fictional characters and does not make claims about legal ownership of a service's software or generated outputs.
+This guide first reviewed official information on October 8, 2026. The post-creation editing limit below was rechecked on October 20, 2026. It provides an original non-explicit authoring exercise for adult fictional characters and does not make claims about legal ownership of a service's software or generated outputs.
 
 ## Describe the control you need
 
@@ -30,6 +30,8 @@ Write three required edits: change a stable background fact, adjust reply length
 ## Identify the starting setup
 
 Swipey's documentation distinguishes custom AI from its platform and creator-associated offerings. Inspect the current custom creation route if you need to design an original persona. Do not assume that a public or creator-associated card exposes all the instructions behind its conversation.
+
+Swipey's current Custom AI guide says Edit AI can change fields such as appearance, name, voice, location and scenario after creation, while the chosen personality remains fixed. A request in chat to change the teacher's explanation style should therefore be recorded separately from an edit to a persistent personality definition.
 
 Kindroid documents editable personality setup. Compare the controls available in your actual account and interface rather than mapping one product's field names onto the other. A supported control is relevant because it lets you make a deliberate change; its existence alone does not prove consistent behavior.
 
