@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "domain": "swipeyai.fun",
+  "grandfathered": [
+    {
+      "order": 1,
+      "slug": "swipey-vs-nomi-feed-or-continuity",
+      "releaseAt": "2026-10-08T05:22:21.457Z",
+      "status": 200,
+      "liveVerifiedAt": "2026-10-23T05:17:55.525Z",
+      "canonical": "https://swipeyai.fun/blog/swipey-vs-nomi-feed-or-continuity/",
+      "language": "en",
+      "titleMatches": true,
+      "discoveryVerified": true,
+      "sourceCommit": "55e7567fc9136bff244bac5a135f7662ef885b9e",
+      "deploymentId": "e8059d02-7ab2-4e03-a205-450e5745a54b",
+      "responseSha256": "314059fab8141bfb4d89d7cf45e169b91dfc4d65d19d610f743c9f74dd513a81"
+    },
+    {
+      "order": 2,
+      "slug": "swipey-vs-kindroid-profile-control",
+      "releaseAt": "2026-10-16T03:54:20.160Z",
+      "status": 200,
+      "liveVerifiedAt": "2026-10-23T05:17:55.526Z",
+      "canonical": "https://swipeyai.fun/blog/swipey-vs-kindroid-profile-control/",
+      "language": "en",
+      "titleMatches": true,
+      "discoveryVerified": true,
+      "sourceCommit": "55e7567fc9136bff244bac5a135f7662ef885b9e",
+      "deploymentId": "e8059d02-7ab2-4e03-a205-450e5745a54b",
+      "responseSha256": "47563fc6726a758ed49d2dee3a5455de07704d1b3a7a26cca16dca0ecafcbe74"
+    }
+  ],
+  "certificates": {}
+}
