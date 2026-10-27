@@ -31,5 +31,71 @@
       "responseSha256": "47563fc6726a758ed49d2dee3a5455de07704d1b3a7a26cca16dca0ecafcbe74"
     }
   ],
-  "certificates": {}
+  "certificates": {
+    "swipey-vs-replika-notification-boundaries": {
+      "schemaVersion": 1,
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "domain": "swipeyai.fun",
+      "slug": "swipey-vs-replika-notification-boundaries",
+      "order": 3,
+      "releaseAt": "2026-10-23T15:04:30.480Z",
+      "activationAt": "2026-10-27T04:37:10.772Z",
+      "reviewedAt": "2026-10-27T04:37:10.772Z",
+      "factsCheckedAt": "2026-10-27T04:37:10.772Z",
+      "reviewedBy": "Codex editorial review following the October27 human project override",
+      "contentSha256": "593d94cb21a797e2dd98f99b3958d25c3402ad75f512eec78571dfc42e27903f",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Reviewed original final article and primary source scope; correct material outdated claims, preserve honest limits, no fabricated product experience."
+      },
+      "observations": [],
+      "officialSources": [
+        {
+          "url": "https://swipey.ai/faq/ai-features/what-is-the-explorer-feed-on-swipey-ai",
+          "checkedAt": "2026-10-27T04:28:41.850Z",
+          "status": 200,
+          "claim": "Relevant current published feature/policy wording reviewed; no account behavior or product testing implied.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/basic-review-20261027/source-6f2d0939c5b2d96f.json",
+              "sha256": "8dfd45d88888a704b2b0fdc4485a16ed551ee19061c5f3ecf396cff1f20054d4"
+            }
+          ]
+        },
+        {
+          "url": "https://help.replika.com/hc/en-us/articles/115001095892-How-do-I-begin-Replika",
+          "checkedAt": "2026-10-27T04:37:10.772Z",
+          "status": "content-retrieved",
+          "claim": "Relevant current published feature/policy wording reviewed; no account behavior or product testing implied.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/basic-review-20261027/source-164e6e2a03d7a4cd.json",
+              "sha256": "f16779fc58bb105401513f85f5b4faa0fcbc5ad3e2cd0c9833e0e8a52ce6ea13"
+            }
+          ]
+        },
+        {
+          "url": "https://support.apple.com/guide/iphone/change-notification-settings-iph7c3d96bab/ios",
+          "checkedAt": "2026-10-27T04:28:43.070Z",
+          "status": 200,
+          "claim": "Relevant current published feature/policy wording reviewed; no account behavior or product testing implied.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/basic-review-20261027/source-1f56fa64d4aa2e2d.json",
+              "sha256": "1d0bb10031e80e9be328fd2e078004fdfa2a56701543260bdf917038769d763b"
+            }
+          ]
+        }
+      ],
+      "certificateDigest": "3c2e857c94f4ece124d8cfff8b3b045b583b1dd5db8ec6292b2d9025cbea74be"
+    }
+  }
 }

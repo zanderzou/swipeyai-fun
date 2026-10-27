@@ -1,8 +1,8 @@
 ---
 title: "Swipey AI vs Replika: Notification Boundaries"
 description: "Compare a Swipey discovery routine and a Replika companion routine with practical notification, lock-screen preview and session-stopping checks."
-publishDate: 2026-10-23T15:04:30.480Z
-updatedDate: 2026-10-08T05:22:21.457Z
+publishDate: "2026-10-27"
+updatedDate: "2026-10-27"
 category: "Comparison"
 readTime: "3 min read"
 answer: "Compare the notifications supported by the route you actually use, then configure both product preferences and device display controls. A discovery feed and a recurring companion can both fit a bounded routine. Turning off a notification does not delete a conversation or prove that the service stopped processing account data."
@@ -19,7 +19,7 @@ sources:
 
 Swipey AI vs Replika for a daily routine should include what happens after you close the conversation. A product can be convenient to reopen while still showing more prompts or previews than you want. Notification behavior belongs in the comparison alongside discovery and dialogue.
 
-Official product and device guidance was reviewed on October 8, 2026. This article proposes a settings checklist; it does not report matched phone tests or claim that either product sends a particular number of notifications.
+Official product and device guidance was reviewed on October 27, 2026. This article proposes a settings checklist; it does not report matched phone tests or claim that either product sends a particular number of notifications.
 
 ## Choose the amount of attention you want
 

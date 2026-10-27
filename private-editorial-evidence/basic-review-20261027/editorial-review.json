@@ -1,0 +1,21 @@
+{
+  "domain": "swipeyai.fun",
+  "slug": "swipey-vs-replika-notification-boundaries",
+  "reviewedAt": "2026-10-27T04:37:10.772Z",
+  "standard": "portfolio-basic-quality-20261027",
+  "materialRevision": false,
+  "sources": [
+    "https://swipey.ai/faq/ai-features/what-is-the-explorer-feed-on-swipey-ai",
+    "https://help.replika.com/hc/en-us/articles/115001095892-How-do-I-begin-Replika",
+    "https://support.apple.com/guide/iphone/change-notification-settings-iph7c3d96bab/ios"
+  ],
+  "quality": {
+    "readable": true,
+    "useful": true,
+    "factual": true,
+    "experienceClaims": "none",
+    "note": "Reviewed original final article and primary source scope; correct material outdated claims, preserve honest limits, no fabricated product experience."
+  },
+  "contentSha256": "593d94cb21a797e2dd98f99b3958d25c3402ad75f512eec78571dfc42e27903f",
+  "limits": "Informational guide and suggested fictional exercises; no product-account, transaction, backend or generation test claimed."
+}
