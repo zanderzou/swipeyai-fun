@@ -99,8 +99,8 @@
       "language": "en",
       "approved": true,
       "status": "editorially-reviewed",
-      "sourcesCheckedAt": "2026-10-19",
-      "reviewedSha256": "d48c671949ee5556b891841d6260296d617a595eee61b4b338f7b2351cbbf2a0",
+      "sourcesCheckedAt": "2026-10-31",
+      "reviewedSha256": "09a6f4a831c344e5e1c0621736f2f743faceb3bf84dbbeff51eb84e9d781c297",
       "wordCount": 414,
       "editorialIntent": "A dated descriptor comparison and a charge-to-receipt reconciliation that keeps suspected unauthorized charges with the issuer’s process.",
       "sources": [

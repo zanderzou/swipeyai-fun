@@ -1,7 +1,7 @@
 ---
 title: "SWIPEY.AI or INVAI LTD on a Statement? Match the Charge, Not Just the Name"
 description: "Compare Swipey’s current billing-descriptor FAQ with older neutral-name wording, then match the date, amount and receipt without treating a name as proof of authorization."
-publishDate: "2026-10-30"
+publishDate: "2026-11-03"
 updatedDate: "2026-10-19"
 category: "Practical guide"
 readTime: "3 min read"

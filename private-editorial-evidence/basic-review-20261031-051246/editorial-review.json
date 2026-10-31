@@ -1,0 +1,132 @@
+{
+  "reviewedAt": "2026-10-31T05:20:03.000Z",
+  "domain": "swipeyai.fun",
+  "slug": "swipey-invai-ltd-statement-charge-check",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "skill": {
+    "name": "write-tested-seo",
+    "version": "1.5",
+    "projectOverride": "October27 basic factuality and usefulness; no invented experience or mandatory hands-on quota"
+  },
+  "sourceCommit": "1380531be7c46bafec9108b663c6a3f57437b941",
+  "production": {
+    "id": "230fd70e-e030-4b9b-8c93-0c3a28157768",
+    "url": "https://230fd70e.swipeyai-fun.pages.dev",
+    "commit": "1380531be7c46bafec9108b663c6a3f57437b941",
+    "sourceShaRaw": "1380531be7c46bafec9108b663c6a3f57437b941",
+    "createdAt": "2026-10-29T13:27:50.958566Z"
+  },
+  "sourceFile": "src/editorial-drafts/swipey-invai-ltd-statement-charge-check.md",
+  "rawBytes": 4045,
+  "contentSha256": "d48c671949ee5556b891841d6260296d617a595eee61b4b338f7b2351cbbf2a0",
+  "terminalLfPreserved": true,
+  "targetRepositoryInstructions": "Exact-main AGENTS read and current root policy applied.",
+  "sources": [
+    {
+      "url": "https://swipey.ai/faq/hearts-billing/how-does-swipey-ai-appear-on-my-bank-statement",
+      "finalUrl": "https://swipey.ai/faq/hearts-billing/how-does-swipey-ai-appear-on-my-bank-statement",
+      "status": 200,
+      "checkedAt": "2026-10-31T05:19:41.871Z",
+      "robots": null,
+      "cache": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "sha256": "668bca4a09ceba6955eb78dc9fc0e6e64ffb86eae44c4c28b8f1b44f2d4ca067",
+      "contentRetrievedDirectly": true,
+      "textSha256": "7dc04dc5c99515c5aed84f2fd1a3ba16799ca680026917a550bb6ed9cbe56caa",
+      "webSearchAndOriginalPageOpened": true,
+      "webReadCompletedAt": "2026-10-31T05:19:40.587Z",
+      "directStatus": 200,
+      "directError": null,
+      "webRetrievalStatus": "content-retrieved",
+      "summary": "FAQ says either SWIPEY.AI or INVAI LTD applies across Premium, Hearts and Fan Club purchases depending on payment provider."
+    },
+    {
+      "url": "https://swipey.ai/blog/ai-companion-bank-statement",
+      "finalUrl": "https://swipey.ai/blog/ai-companion-bank-statement",
+      "status": 200,
+      "checkedAt": "2026-10-31T05:19:42.028Z",
+      "robots": null,
+      "cache": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "sha256": "8d77db041448b4065d9a1fc4ff7c2831df2d75665990dae021f49bef4c81f729",
+      "contentRetrievedDirectly": true,
+      "textSha256": "a3c0005dfec0710693bf199397a60df9197d4760a4eae0285ffa38ddb7487dfa",
+      "webSearchAndOriginalPageOpened": true,
+      "webReadCompletedAt": "2026-10-31T05:19:40.587Z",
+      "directStatus": 200,
+      "directError": null,
+      "webRetrievalStatus": "content-retrieved",
+      "summary": "October12 billing article retains contrary neutral-name/never Swipey claim; draft flags this conflict."
+    },
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-dispute-a-charge-on-my-credit-card-bill-en-61/",
+      "finalUrl": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-dispute-a-charge-on-my-credit-card-bill-en-61/",
+      "status": 200,
+      "checkedAt": "2026-10-31T05:19:41.884Z",
+      "robots": null,
+      "cache": null,
+      "sha256": "5ddb9544bb1dd0324819dc91aad8dcde1a619d00d0744c2f76c4c98075b69210",
+      "contentRetrievedDirectly": true,
+      "textSha256": "102ceb6bb355cf8162ce61dc7320ad76bac0d08c6d9b362e0a425cedcca446c7",
+      "webSearchAndOriginalPageOpened": true,
+      "webReadCompletedAt": "2026-10-31T05:19:40.587Z",
+      "directStatus": 200,
+      "directError": null,
+      "webRetrievalStatus": "content-retrieved",
+      "summary": "US CFPB advises notifying card company promptly and keeping dispute records; draft does not decide an individual dispute or impose US rules globally."
+    }
+  ],
+  "sourceReview": {
+    "retrievalMethod": "Actual current official searches and original-page opens using web tool; direct HTTP status/errors retained separately. No login/account/payment/deletion actions.",
+    "webReadCompletedAt": "2026-10-31T05:19:40.587Z",
+    "claims": [
+      "FAQ says either SWIPEY.AI or INVAI LTD applies across Premium, Hearts and Fan Club purchases depending on payment provider.",
+      "October12 billing article retains contrary neutral-name/never Swipey claim; draft flags this conflict.",
+      "US CFPB advises notifying card company promptly and keeping dispute records; draft does not decide an individual dispute or impose US rules globally."
+    ],
+    "summary": "Current Swipey billing FAQ names SWIPEY.AI and INVAI LTD and says processor, not purchase type, determines descriptor. The older October12 article still promises a neutral name/never Swipey. Draft correctly surfaces the conflict rather than repeating guarantee; CFPB source supports prompt issuer contact and record keeping for disputed credit-card charges with jurisdiction limits."
+  },
+  "editorialReview": {
+    "readerQuestion": "Identify a possibly related statement entry without assuming it was authorized or paid for a particular product.",
+    "openingAnswersTask": true,
+    "concreteValue": "Matches date, amount, currency, receipt and pending/posted state; separates merchant identity from authorization, product, renewal and refund.",
+    "readableEnglish": true,
+    "honestLimitations": true,
+    "noPersonalTestingClaim": true,
+    "noGuarantee": true,
+    "preserveExistingDates": true,
+    "missingAccountAccessIsNotBlocker": true,
+    "assessment": "Sound sourced informational guide under current project standard."
+  },
+  "materialChangeFound": false,
+  "requiredContentChanges": [],
+  "recommendedFinalContentSha256": "d48c671949ee5556b891841d6260296d617a595eee61b4b338f7b2351cbbf2a0",
+  "recommendedEditorialDecision": "eligible-for-basic-editorial-approval-by-authorized-parent-workflow",
+  "limitations": [
+    "Editorial/source research only; no account, login, subscription, payment, deletion, private photo upload or product performance test performed.",
+    "Exact draft source is verified; provider/source identity comes from this heartbeat fresh inventory, not a deployment by this agent."
+  ],
+  "currentMainBindingVerified": {
+    "passed": true,
+    "main": "1380531be7c46bafec9108b663c6a3f57437b941",
+    "production": {
+      "id": "230fd70e-e030-4b9b-8c93-0c3a28157768",
+      "url": "https://230fd70e.swipeyai-fun.pages.dev",
+      "commit": "1380531be7c46bafec9108b663c6a3f57437b941",
+      "sourceShaRaw": "1380531be7c46bafec9108b663c6a3f57437b941",
+      "createdAt": "2026-10-29T13:27:50.958566Z"
+    },
+    "proof": "../sites/swipeyai.fun/source.json"
+  },
+  "changes": {
+    "repo": false,
+    "approval": false,
+    "deployment": false
+  },
+  "finalContentSha256": "09a6f4a831c344e5e1c0621736f2f743faceb3bf84dbbeff51eb84e9d781c297",
+  "originalContentSha256": "d48c671949ee5556b891841d6260296d617a595eee61b4b338f7b2351cbbf2a0",
+  "finalMetadataReview": {
+    "publishDate": "2026-11-03",
+    "originalPublishDate": "2026-10-30",
+    "reason": "Actual effective activation date; original planned releaseAt retained",
+    "updatedDateChangedOnlyForBodyCorrection": false
+  }
+}

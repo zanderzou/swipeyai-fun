@@ -96,6 +96,71 @@
         }
       ],
       "certificateDigest": "3c2e857c94f4ece124d8cfff8b3b045b583b1dd5db8ec6292b2d9025cbea74be"
+    },
+    "swipey-invai-ltd-statement-charge-check": {
+      "schemaVersion": 1,
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "domain": "swipeyai.fun",
+      "slug": "swipey-invai-ltd-statement-charge-check",
+      "order": 4,
+      "releaseAt": "2026-10-30T20:10:01.480Z",
+      "activationAt": "2026-11-03T04:37:10.772Z",
+      "reviewedAt": "2026-10-31T05:21:10.648Z",
+      "factsCheckedAt": "2026-10-31T05:20:03.000Z",
+      "reviewedBy": "Codex article and current primary-source review under October27 human standard",
+      "contentSha256": "09a6f4a831c344e5e1c0621736f2f743faceb3bf84dbbeff51eb84e9d781c297",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Sound sourced informational guide under current project standard."
+      },
+      "observations": [],
+      "officialSources": [
+        {
+          "url": "https://swipey.ai/faq/hearts-billing/how-does-swipey-ai-appear-on-my-bank-statement",
+          "checkedAt": "2026-10-31T05:19:41.871Z",
+          "status": "content-retrieved",
+          "claim": "Sound sourced informational guide under current project standard.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/basic-review-20261031-051246/editorial-review.json",
+              "sha256": "8f9a30c49494c8cc6404c1f52deb91f31399bd603de11bb28f03fd62a45eb50e"
+            }
+          ]
+        },
+        {
+          "url": "https://swipey.ai/blog/ai-companion-bank-statement",
+          "checkedAt": "2026-10-31T05:19:42.028Z",
+          "status": "content-retrieved",
+          "claim": "Sound sourced informational guide under current project standard.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/basic-review-20261031-051246/editorial-review.json",
+              "sha256": "8f9a30c49494c8cc6404c1f52deb91f31399bd603de11bb28f03fd62a45eb50e"
+            }
+          ]
+        },
+        {
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-dispute-a-charge-on-my-credit-card-bill-en-61/",
+          "checkedAt": "2026-10-31T05:19:41.884Z",
+          "status": "content-retrieved",
+          "claim": "Sound sourced informational guide under current project standard.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/basic-review-20261031-051246/editorial-review.json",
+              "sha256": "8f9a30c49494c8cc6404c1f52deb91f31399bd603de11bb28f03fd62a45eb50e"
+            }
+          ]
+        }
+      ],
+      "certificateDigest": "7a214178922ddc883e54d9f52642e715781b8161c5350c29b87849a3271d41c0"
     }
   }
 }
