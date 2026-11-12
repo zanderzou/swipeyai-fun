@@ -129,8 +129,8 @@
       "language": "en",
       "approved": true,
       "status": "editorially-reviewed",
-      "sourcesCheckedAt": "2026-10-19",
-      "reviewedSha256": "7daae8cfcba17c2558e8a51c3018191da771684e25b9595894eb50e5dfd807ff",
+      "sourcesCheckedAt": "2026-11-12",
+      "reviewedSha256": "0908a4e42c9786156bf8f28fe3537228744187012cf6bbd44066660a6c283195",
       "wordCount": 436,
       "editorialIntent": "A request-before-deletion sequence and a distinction between account access, balance and purpose-specific retained information.",
       "sources": [

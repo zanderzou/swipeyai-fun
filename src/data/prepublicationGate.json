@@ -161,6 +161,71 @@
         }
       ],
       "certificateDigest": "7a214178922ddc883e54d9f52642e715781b8161c5350c29b87849a3271d41c0"
+    },
+    "swipey-data-copy-before-delete-profile": {
+      "schemaVersion": 1,
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "domain": "swipeyai.fun",
+      "slug": "swipey-data-copy-before-delete-profile",
+      "order": 5,
+      "releaseAt": "2026-11-07T16:56:51.480Z",
+      "activationAt": "2026-11-12T16:20:12.000Z",
+      "reviewedAt": "2026-11-12T15:58:54.410Z",
+      "factsCheckedAt": "2026-11-12T15:58:47.9434455Z",
+      "reviewedBy": "Codex editorial review",
+      "contentSha256": "0908a4e42c9786156bf8f28fe3537228744187012cf6bbd44066660a6c283195",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Clear practical English guide. Important claims checked against official documents. Illustrations are hypothetical or documentary, without invented account or product testing."
+      },
+      "observations": [],
+      "officialSources": [
+        {
+          "url": "https://swipey.ai/privacy-policy",
+          "claim": "Sections 12 and 14 distinguish profile, interaction, payment and support retention with separate periods and exceptions.",
+          "checkedAt": "2026-11-12T15:58:47.9434455Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261112-blog-release-review.json",
+              "sha256": "8ac605010136c1ed8f1f2d85be700b2b9b3197e1b84ec504ba4899a1f68e5a0a"
+            }
+          ]
+        },
+        {
+          "url": "https://swipey.ai/blog/ai-companion-data-privacy",
+          "claim": "Official guide recommends canceling Premium, requesting needed data and then deleting profile. Its older contact and retention references should not override the current policy.",
+          "checkedAt": "2026-11-07T04:43:49.174Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261112-blog-release-review.json",
+              "sha256": "8ac605010136c1ed8f1f2d85be700b2b9b3197e1b84ec504ba4899a1f68e5a0a"
+            }
+          ]
+        },
+        {
+          "url": "https://swipey.ai/faq/hearts-billing/do-hearts-expire",
+          "claim": "Purchased Hearts stay while account active and do not depend on Premium; account deletion removes the remaining balance.",
+          "checkedAt": "2026-11-07T04:43:49.174Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261112-blog-release-review.json",
+              "sha256": "8ac605010136c1ed8f1f2d85be700b2b9b3197e1b84ec504ba4899a1f68e5a0a"
+            }
+          ]
+        }
+      ],
+      "certificateDigest": "d766ffec249b4b44f00be623cba55eb8b03e03316b51dddcb73da4ffd363cab9"
     }
   }
 }

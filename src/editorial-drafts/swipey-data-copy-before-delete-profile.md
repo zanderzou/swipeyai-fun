@@ -1,12 +1,12 @@
 ---
 title: "Swipey Data Copy Before Deletion: Check Access, Hearts and Retention"
-description: "Separate a Swipey data-access request from profile deletion and subscription cancellation, and read the policy’s usual retention period without assuming every record is immediately erased."
-publishDate: "2026-11-07"
-updatedDate: "2026-10-19"
+description: "Separate a Swipey data-access request from profile deletion and subscription cancellation, and read its category-specific retention periods without assuming immediate erasure."
+publishDate: "2026-11-12"
+updatedDate: "2026-11-12"
 category: "Practical guide"
 readTime: "3 min read"
 accent: "violet"
-answer: "Swipey’s published guide recommends requesting needed data before profile deletion and canceling Premium separately first. Its Hearts FAQ says account deletion removes the remaining balance. The privacy policy describes a usual six-year retention period after account closure, subject to its stated conditions; that is different from an instant erasure promise or a restorable user archive."
+answer: "Swipey’s guide recommends requesting needed data before deletion and canceling Premium separately first; its Hearts FAQ says deletion removes any balance. Its privacy policy gives account/profile data a 90-day post-closure deletion or anonymisation period and Interaction Content a 30-day deletion or de-identification period after closure or consent withdrawal, except specific legal items. Six years applies to payment and billing records."
 keywords: ["swipey delete profile data copy"]
 sources:
   - name: "Swipey: account data and deletion explanation"
@@ -21,7 +21,7 @@ sources:
 
 ## Define the copy you are requesting
 
-The [privacy policy](https://swipey.ai/privacy-policy) describes a personal-data access request to its Controller. A copy of personal data and a convenient, app-importable conversation backup are not necessarily the same deliverable.
+The [privacy policy](https://swipey.ai/privacy-policy) describes personal-data access requests through its privacy contact. A copy of personal data and a convenient, app-importable conversation backup are not necessarily the same deliverable.
 
 State the categories you need and ask what format is available. Do not promise yourself a complete restoration file unless the provider actually confirms one. Preserve the request reference and the response, including any stated limits.
 
@@ -35,9 +35,9 @@ The [Hearts FAQ](https://swipey.ai/faq/hearts-billing/do-hearts-expire) distingu
 
 ## Read the retention statement accurately
 
-Section 12 of the policy describes a usual six-year personal-information retention period after account closure and says periods can change with business or regulatory requirements. Other policy sections address erasure requests and possible legal exceptions.
+Section 12 sets different periods by category. Account and profile data is deleted or anonymised within 90 days of closure. Interaction Content is deleted or de-identified within 30 days of closure or consent withdrawal, except specific items needed for a legal claim or obligation. Payment and billing records are kept for six years for tax and accounting, while support communications are kept for 24 months after resolution.
 
-This is the provider's published wording, not an independent determination that every conversation must be retained for exactly six years. Ask which categories, purposes and periods apply to your particular request. Likewise, retained information does not necessarily form an archive that can restore a deleted user account.
+These are the provider's published periods, not our verification of backend deletion. Ask which categories, purposes and exceptions apply to your request. Retained information does not necessarily form an archive that can restore a deleted user account.
 
 ## Keep the confirmations separate
 
