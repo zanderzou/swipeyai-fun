@@ -1,0 +1,38 @@
+{
+  "domain": "swipeyai.fun",
+  "slug": "swipey-hearts-balance-vs-relationship-indicator",
+  "order": 6,
+  "reviewedAt": "2026-11-16T11:40:48.150Z",
+  "factsCheckedAt": "2026-11-16T11:40:21Z",
+  "contentSha256": "100eaf8d0a44496528b9744ae77ef7a70f3c6f72449b1b221b5ec65855bca568",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-11-19T16:20:12.000Z",
+  "readerQuestion": "Do the hearts displayed in my Swipey chat show how many I can spend?",
+  "applicableClaims": [
+    {
+      "name": "Swipey AI Hearts help",
+      "url": "https://swipey.ai/faq/hearts-billing/what-are-hearts-on-swipey-ai",
+      "note": "Distinguishes the spendable balance from a separate relationship indicator and names paid actions."
+    },
+    {
+      "name": "Swipey AI official getting-started help",
+      "url": "https://swipey.ai/faq/getting-started/how-swipey-ai-works",
+      "note": "Describes characters, text, voice, media and in-chat relationship mechanics."
+    }
+  ],
+  "exampleType": "Original illustrative workflow",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-16-weekly-refill/sites/swipeyai.fun/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-swipey-hearts-balance-vs-relationship-indicator.png",
+    "sha256": "8ea6e444ee09daa3ee1ae7c7007a2785075bf9fbbcda23c2d5ef3172fb19144f",
+    "type": "Original editorial diagram",
+    "alt": "Find the top-bar balance. Identify the relationship widget. Check the quote for a media action."
+  },
+  "editorialReview": {
+    "readerAction": "Distinguish the top-bar balance from the in-chat relationship indicator before requesting media.",
+    "wordCount": 135,
+    "factBasis": "Primary sources and an explicitly fictional example. No product operation is claimed.",
+    "sourceLinksKeptInPrivateEvidence": true,
+    "productionReview": "The compiled Worker, all release boundaries and formal site are checked separately."
+  }
+}

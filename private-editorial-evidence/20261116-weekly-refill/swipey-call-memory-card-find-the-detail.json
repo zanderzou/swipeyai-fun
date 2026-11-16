@@ -1,0 +1,38 @@
+{
+  "domain": "swipeyai.fun",
+  "slug": "swipey-call-memory-card-find-the-detail",
+  "order": 8,
+  "reviewedAt": "2026-11-16T11:40:48.150Z",
+  "factsCheckedAt": "2026-11-16T11:40:21Z",
+  "contentSha256": "e4b25535c4251febc06ffb03745cce18be39347b91823bcf90e7a158ff40ec43",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-12-03T16:20:12.000Z",
+  "readerQuestion": "Where can I look for a detail after ending a Swipey voice call?",
+  "applicableClaims": [
+    {
+      "name": "Swipey AI Call Memory guide",
+      "url": "https://swipey.ai/faq/chat-relationship/what-is-the-call-memory-card-after-a-voice-call",
+      "note": "Describes post-call duration, transcript and shared media cards and where they appear."
+    },
+    {
+      "name": "Swipey AI official getting-started help",
+      "url": "https://swipey.ai/faq/getting-started/how-swipey-ai-works",
+      "note": "Describes characters, text, voice, media and in-chat relationship mechanics."
+    }
+  ],
+  "exampleType": "Original illustrative workflow",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-16-weekly-refill/sites/swipeyai.fun/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-swipey-call-memory-card-find-the-detail.png",
+    "sha256": "8eb41a312b74d1a58a40e93507a5b1b0fe6df11531844b39f5d39413f1ba726f",
+    "type": "Original editorial diagram",
+    "alt": "Open the matching chat. Locate the card by time. Note the one story detail."
+  },
+  "editorialReview": {
+    "readerAction": "Use a call's time and transcript summary to carry a fictional scene into the next turn.",
+    "wordCount": 160,
+    "factBasis": "Primary sources and an explicitly fictional example. No product operation is claimed.",
+    "sourceLinksKeptInPrivateEvidence": true,
+    "productionReview": "The compiled Worker, all release boundaries and formal site are checked separately."
+  }
+}

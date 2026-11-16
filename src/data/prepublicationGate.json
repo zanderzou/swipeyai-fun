@@ -226,6 +226,168 @@
         }
       ],
       "certificateDigest": "d766ffec249b4b44f00be623cba55eb8b03e03316b51dddcb73da4ffd363cab9"
+    },
+    "swipey-hearts-balance-vs-relationship-indicator": {
+      "schemaVersion": 1,
+      "domain": "swipeyai.fun",
+      "slug": "swipey-hearts-balance-vs-relationship-indicator",
+      "order": 6,
+      "releaseAt": "2026-11-19T16:20:12.000Z",
+      "activationAt": "2026-11-19T16:20:12.000Z",
+      "contentSha256": "100eaf8d0a44496528b9744ae77ef7a70f3c6f72449b1b221b5ec65855bca568",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-16T11:40:48.150Z",
+      "factsCheckedAt": "2026-11-16T11:40:21Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Primary sources and an explicitly fictional example. No product operation is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "Swipey AI Hearts help",
+          "url": "https://swipey.ai/faq/hearts-billing/what-are-hearts-on-swipey-ai",
+          "note": "Distinguishes the spendable balance from a separate relationship indicator and names paid actions.",
+          "checkedAt": "2026-11-16T11:40:21Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/swipey-hearts-balance-vs-relationship-indicator.json",
+              "sha256": "d386572ad13563f4d49dc345bc1761b1a919c7951e4a0f033d1daff9fbc672e1"
+            }
+          ]
+        },
+        {
+          "name": "Swipey AI official getting-started help",
+          "url": "https://swipey.ai/faq/getting-started/how-swipey-ai-works",
+          "note": "Describes characters, text, voice, media and in-chat relationship mechanics.",
+          "checkedAt": "2026-11-16T11:40:21Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/swipey-hearts-balance-vs-relationship-indicator.json",
+              "sha256": "d386572ad13563f4d49dc345bc1761b1a919c7951e4a0f033d1daff9fbc672e1"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "5a45b2908aa919c043033501d6eb367e9bcca6469d3b84bc61c0890442c08c62"
+    },
+    "swipey-edit-ai-look-voice-personality-rules": {
+      "schemaVersion": 1,
+      "domain": "swipeyai.fun",
+      "slug": "swipey-edit-ai-look-voice-personality-rules",
+      "order": 7,
+      "releaseAt": "2026-11-26T16:20:12.000Z",
+      "activationAt": "2026-11-26T16:20:12.000Z",
+      "contentSha256": "90cb83b710c04ce0e1d378a5133bd3899706722d8baa7c67d0ddd9dd9ff4ba54",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-16T11:40:48.150Z",
+      "factsCheckedAt": "2026-11-16T11:40:21Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Primary sources and an explicitly fictional example. No product operation is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "Swipey AI Edit AI guide",
+          "url": "https://swipey.ai/faq/ai-features/can-i-edit-my-ai-companion-after-creating-her",
+          "note": "Documents editable details, personality and public-character limits, regeneration, and charges.",
+          "checkedAt": "2026-11-16T11:40:21Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/swipey-edit-ai-look-voice-personality-rules.json",
+              "sha256": "786cdec94e23de8f82e48540e1c78c9072a05fd4ea2310a0ab1158d536c07535"
+            }
+          ]
+        },
+        {
+          "name": "Swipey AI Hearts help",
+          "url": "https://swipey.ai/faq/hearts-billing/what-are-hearts-on-swipey-ai",
+          "note": "Distinguishes the spendable balance from a separate relationship indicator and names paid actions.",
+          "checkedAt": "2026-11-16T11:40:21Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/swipey-edit-ai-look-voice-personality-rules.json",
+              "sha256": "786cdec94e23de8f82e48540e1c78c9072a05fd4ea2310a0ab1158d536c07535"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "13b75d375d34d450e8534e2c5334bdd3676c1d7faf984f908dac39b726075792"
+    },
+    "swipey-call-memory-card-find-the-detail": {
+      "schemaVersion": 1,
+      "domain": "swipeyai.fun",
+      "slug": "swipey-call-memory-card-find-the-detail",
+      "order": 8,
+      "releaseAt": "2026-12-03T16:20:12.000Z",
+      "activationAt": "2026-12-03T16:20:12.000Z",
+      "contentSha256": "e4b25535c4251febc06ffb03745cce18be39347b91823bcf90e7a158ff40ec43",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-16T11:40:48.150Z",
+      "factsCheckedAt": "2026-11-16T11:40:21Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Primary sources and an explicitly fictional example. No product operation is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "Swipey AI Call Memory guide",
+          "url": "https://swipey.ai/faq/chat-relationship/what-is-the-call-memory-card-after-a-voice-call",
+          "note": "Describes post-call duration, transcript and shared media cards and where they appear.",
+          "checkedAt": "2026-11-16T11:40:21Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/swipey-call-memory-card-find-the-detail.json",
+              "sha256": "abe4b3fb763e1540a49df38d6f587d91ff956c70ef8ca8fa7520a080e0cc9559"
+            }
+          ]
+        },
+        {
+          "name": "Swipey AI official getting-started help",
+          "url": "https://swipey.ai/faq/getting-started/how-swipey-ai-works",
+          "note": "Describes characters, text, voice, media and in-chat relationship mechanics.",
+          "checkedAt": "2026-11-16T11:40:21Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/swipey-call-memory-card-find-the-detail.json",
+              "sha256": "abe4b3fb763e1540a49df38d6f587d91ff956c70ef8ca8fa7520a080e0cc9559"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "966666ac3d98c73bf4e3f09eaece1b1710f40aa90943cb843cca04b117bbd06f"
     }
   }
 }

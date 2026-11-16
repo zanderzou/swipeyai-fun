@@ -149,6 +149,81 @@
       ],
       "notBefore": "2026-11-10T04:37:10.772Z",
       "scheduleNote": "Effective earliest opportunity after delayed previous release; retain original releaseAt and require basic editorial approval."
+    },
+    {
+      "order": 6,
+      "slug": "swipey-hearts-balance-vs-relationship-indicator",
+      "title": "Find the Spendable Hearts Balance on Swipey AI",
+      "readerQuestion": "Do the hearts displayed in my Swipey chat show how many I can spend?",
+      "releaseAt": "2026-11-19T16:20:12.000Z",
+      "notBefore": "2026-11-19T16:20:12.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-16",
+      "reviewedSha256": "100eaf8d0a44496528b9744ae77ef7a70f3c6f72449b1b221b5ec65855bca568",
+      "wordCount": 135,
+      "editorialIntent": "Distinguish the top-bar balance from the in-chat relationship indicator before requesting media.",
+      "sources": [
+        [
+          "Swipey AI Hearts help",
+          "https://swipey.ai/faq/hearts-billing/what-are-hearts-on-swipey-ai"
+        ],
+        [
+          "Swipey AI official getting-started help",
+          "https://swipey.ai/faq/getting-started/how-swipey-ai-works"
+        ]
+      ]
+    },
+    {
+      "order": 7,
+      "slug": "swipey-edit-ai-look-voice-personality-rules",
+      "title": "Check Which Swipey Character Details You Can Edit",
+      "readerQuestion": "Can I change an existing Swipey AI's look, voice or personality?",
+      "releaseAt": "2026-11-26T16:20:12.000Z",
+      "notBefore": "2026-11-26T16:20:12.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-16",
+      "reviewedSha256": "90cb83b710c04ce0e1d378a5133bd3899706722d8baa7c67d0ddd9dd9ff4ba54",
+      "wordCount": 146,
+      "editorialIntent": "Decide whether a look or voice change fits the existing character and review the quote before saving.",
+      "sources": [
+        [
+          "Swipey AI Edit AI guide",
+          "https://swipey.ai/faq/ai-features/can-i-edit-my-ai-companion-after-creating-her"
+        ],
+        [
+          "Swipey AI Hearts help",
+          "https://swipey.ai/faq/hearts-billing/what-are-hearts-on-swipey-ai"
+        ]
+      ]
+    },
+    {
+      "order": 8,
+      "slug": "swipey-call-memory-card-find-the-detail",
+      "title": "Find a Detail in a Swipey AI Call Memory Card",
+      "readerQuestion": "Where can I look for a detail after ending a Swipey voice call?",
+      "releaseAt": "2026-12-03T16:20:12.000Z",
+      "notBefore": "2026-12-03T16:20:12.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-16",
+      "reviewedSha256": "e4b25535c4251febc06ffb03745cce18be39347b91823bcf90e7a158ff40ec43",
+      "wordCount": 160,
+      "editorialIntent": "Use a call's time and transcript summary to carry a fictional scene into the next turn.",
+      "sources": [
+        [
+          "Swipey AI Call Memory guide",
+          "https://swipey.ai/faq/chat-relationship/what-is-the-call-memory-card-after-a-voice-call"
+        ],
+        [
+          "Swipey AI official getting-started help",
+          "https://swipey.ai/faq/getting-started/how-swipey-ai-works"
+        ]
+      ]
     }
   ],
   "baselinePhase": 1,

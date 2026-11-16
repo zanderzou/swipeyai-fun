@@ -1,0 +1,38 @@
+{
+  "domain": "swipeyai.fun",
+  "slug": "swipey-edit-ai-look-voice-personality-rules",
+  "order": 7,
+  "reviewedAt": "2026-11-16T11:40:48.150Z",
+  "factsCheckedAt": "2026-11-16T11:40:21Z",
+  "contentSha256": "90cb83b710c04ce0e1d378a5133bd3899706722d8baa7c67d0ddd9dd9ff4ba54",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-11-26T16:20:12.000Z",
+  "readerQuestion": "Can I change an existing Swipey AI's look, voice or personality?",
+  "applicableClaims": [
+    {
+      "name": "Swipey AI Edit AI guide",
+      "url": "https://swipey.ai/faq/ai-features/can-i-edit-my-ai-companion-after-creating-her",
+      "note": "Documents editable details, personality and public-character limits, regeneration, and charges."
+    },
+    {
+      "name": "Swipey AI Hearts help",
+      "url": "https://swipey.ai/faq/hearts-billing/what-are-hearts-on-swipey-ai",
+      "note": "Distinguishes the spendable balance from a separate relationship indicator and names paid actions."
+    }
+  ],
+  "exampleType": "Original illustrative workflow",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-16-weekly-refill/sites/swipeyai.fun/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-swipey-edit-ai-look-voice-personality-rules.png",
+    "sha256": "596af6ac722e41bd6a08d08e64c61e2841a0ca8674c03a6a23b51cc61d5ffdc9",
+    "type": "Original editorial diagram",
+    "alt": "Write the specific detail to update. Check editable fields and audience. Review the cost before saving."
+  },
+  "editorialReview": {
+    "readerAction": "Decide whether a look or voice change fits the existing character and review the quote before saving.",
+    "wordCount": 146,
+    "factBasis": "Primary sources and an explicitly fictional example. No product operation is claimed.",
+    "sourceLinksKeptInPrivateEvidence": true,
+    "productionReview": "The compiled Worker, all release boundaries and formal site are checked separately."
+  }
+}
